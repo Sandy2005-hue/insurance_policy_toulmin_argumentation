@@ -1,0 +1,17 @@
+# Environments
+.env
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Vector Database (Do not push the local DB to GitHub)
+chroma_db/
+
+# OS generated files
+.DS_Store
+Thumbs.db
