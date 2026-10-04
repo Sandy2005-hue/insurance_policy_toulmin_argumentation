@@ -12,8 +12,8 @@ embeddings = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
 vector_store = Chroma(persist_directory="./chroma_db", embedding_function=embeddings)
 retriever = vector_store.as_retriever(search_kwargs={"k": 4})
 
-
-llm = ChatGoogleGenerativeAI(model="gemini-1.5-flash", temperature=0.1)
+#no model named 1.5 or 2.5 flash those are taken out by the gemini team itself from AI studios
+llm = ChatGoogleGenerativeAI(model="gemini-3.6-flash", temperature=0.1)
 
 def run_toulmin_pipeline(patient_claim: str):
 
