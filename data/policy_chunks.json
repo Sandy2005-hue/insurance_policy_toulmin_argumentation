@@ -1,0 +1,1798 @@
+{
+  "source": "insurance.pdf",
+  "chunks": [
+    {
+      "id": "A",
+      "section": "A",
+      "section_title": "Preamble",
+      "title": "Preamble",
+      "citation": "Section A (Preamble)",
+      "page": 1,
+      "text": "A. Preamble  \n  \nWe will provide the insurance coverage specified in the Policy to the Insured Persons up to the Sum \nInsured specified against each benefit, subject to  \n(i) The Policy is based on the statements and declaration provided in the Proposal Form by the Proposer \nand is subject to i.e. the receipt of full premium  \n(ii) the terms, conditions, and exclusions of this Policy,  \n  \nYour policy comprises:   \n• The preamble which introduces the policy document describes the structure of the document and \nsets the general rules; \n• The policy wording which lists and details the available coverage, benefits, claims and grievance \nredressal procedure, exclusions and other terms and conditions of cover; \n• The proposal, which is the information You provide to us and which forms the basis for this insurance \ncover;  \n• The policy schedule - a separate document customized for you showing the cover details opted for \nby You and offered by Us to You.  It is to be noted that the schedule may amend the policy and only \nthose Parts shown as covered in your schedule are insured;  \n• Any other written alteration otherwise issued by us in writing (such as an endorsement) that varies \nor modifies the above documents.",
+      "codes": [],
+      "annexure": false
+    },
+    {
+      "id": "B.1",
+      "section": "B",
+      "section_title": "Definitions",
+      "title": "Accident",
+      "citation": "Definition B.1 (Accident)",
+      "page": 1,
+      "text": "1. Accident means a sudden, unforeseen, and involuntary event caused by external, visible and \nviolent means.",
+      "codes": [],
+      "annexure": false
+    },
+    {
+      "id": "B.2",
+      "section": "B",
+      "section_title": "Definitions",
+      "title": "Age",
+      "citation": "Definition B.2 (Age)",
+      "page": 1,
+      "text": "2. Age means age of the Insured person on last birthday as on date of commencement of the Policy.",
+      "codes": [],
+      "annexure": false
+    },
+    {
+      "id": "B.3",
+      "section": "B",
+      "section_title": "Definitions",
+      "title": "Any One Illness",
+      "citation": "Definition B.3 (Any One Illness)",
+      "page": 1,
+      "text": "3. Any One Illness means continuous period of illness and it includes relapse within forty five days \nfrom the date of last consultation with the hospital where treatment has been taken.",
+      "codes": [],
+      "annexure": false
+    },
+    {
+      "id": "B.4",
+      "section": "B",
+      "section_title": "Definitions",
+      "title": "AYUSH Treatment",
+      "citation": "Definition B.4 (AYUSH Treatment)",
+      "page": 1,
+      "text": "4. AYUSH Treatment refers to the medical and/ or hospitalization treatments given under Ayurveda, \nYoga and Naturopathy, Unani, Siddha and Homeopathy systems.",
+      "codes": [],
+      "annexure": false
+    },
+    {
+      "id": "B.5",
+      "section": "B",
+      "section_title": "Definitions",
+      "title": "An AYUSH Hospital",
+      "citation": "Definition B.5 (An AYUSH Hospital)",
+      "page": 1,
+      "text": "5. An AYUSH Hospital is a healthcare facility wherein medical/surgical/para -surgical treatment \nprocedures and interventions are carried out by AYUSH Medical Practitioner(s) comprising of any \nof the following:  \na. Central or State Government AYUSH Hospital or  \nb. Teaching hospital attached to AYUSH College recognized by the Central Government/ Central \nCouncil of Indian Medicine/ Central Council for Homeopathy; or  \nc. AYUSH Hospital, standalone or co -located with in -patient healthcare facility of any \nrecognized system of medicine, registered with the local authorities, wherever applicable, \n \nand is under the supervision of a qualified registered AYUSH Medical Practitioner and must \ncomply with all the following criterion:  \ni. Having at least 5 in-patient beds;  \nii. Having qualified AYUSH Medical Practitioner in charge round the clock;  \niii. Having dedicated AYUSH therapy sections as required and/or has equipped operation \ntheatre where surgical procedures are to be carried out;  \niv. Maintaining daily records of the patients and making them accessible to the insurance \ncompany’s authorized representative.",
+      "codes": [],
+      "annexure": false
+    },
+    {
+      "id": "B.6",
+      "section": "B",
+      "section_title": "Definitions",
+      "title": "AYUSH Day Care Centre",
+      "citation": "Definition B.6 (AYUSH Day Care Centre)",
+      "page": 2,
+      "text": "6. AYUSH Day Care Centre means and includes Community Health Centre (CHC), Primary Health \nCentre (PHC), Dispensary, Clinic, Polyclinic or any such health centre which is registered with the \nlocal authorities, wherever applicable and having facilities for carrying out treatment procedures \nand medical  or surgical/para -surgical interventions or both under the supervision of registered \nAYUSH Medical Practitioner (s) on day care basis without in-patient services and must comply with \nall the following criterion:  \ni. Having qualified registered AYUSH Medical Practitioner(s) in charge;  \nii. Having dedicated AYUSH therapy sections as required and/or has equipped operation theatre \nwhere surgical procedures are to be carried out;  \niii. Maintaining daily records of the patients and making them accessible to the insurance \ncompany’s authorized representative.",
+      "codes": [],
+      "annexure": false
+    },
+    {
+      "id": "B.7",
+      "section": "B",
+      "section_title": "Definitions",
+      "title": "Break in Policy",
+      "citation": "Definition B.7 (Break in Policy)",
+      "page": 2,
+      "text": "7. Break in Policy  means the period of gap that occurs at the end of the existing policy term/  \ninstallment premium due date, when the premium due for renewal on a given policy or installment \npremium due is not paid on or before the premium renewal date or grace period.",
+      "codes": [],
+      "annexure": false
+    },
+    {
+      "id": "B.8",
+      "section": "B",
+      "section_title": "Definitions",
+      "title": "Bank Rate",
+      "citation": "Definition B.8 (Bank Rate)",
+      "page": 2,
+      "text": "8. Bank Rate means Bank rate fixed by the Reserve Bank of India (RBI) which is prevalent as on 1st \nday of the financial year in which the claim has fallen due.",
+      "codes": [],
+      "annexure": false
+    },
+    {
+      "id": "B.9",
+      "section": "B",
+      "section_title": "Definitions",
+      "title": "Cashless Facility",
+      "citation": "Definition B.9 (Cashless Facility)",
+      "page": 2,
+      "text": "9. Cashless Facility means a facility extended by the insurer to the insured where the payments, of \nthe costs of treatment undergone by the insured person in accordance with the Policy terms and \nconditions, are directly made to the network provider by the insurer to the extent pre -\nauthorization is approved.",
+      "codes": [],
+      "annexure": false
+    },
+    {
+      "id": "B.10",
+      "section": "B",
+      "section_title": "Definitions",
+      "title": "Complaint or Grievance",
+      "citation": "Definition B.10 (Complaint or Grievance)",
+      "page": 2,
+      "text": "10. Complaint or Grievance means written expression (includes communication in the form of \nelectronic mail or voice based electronic scripts) of dissatisfaction by a complainant with respect \nto solicitation or sale or purchase of an insurance policy or related services by insurer a nd /or by \ndistribution channel.",
+      "codes": [],
+      "annexure": false
+    },
+    {
+      "id": "B.11",
+      "section": "B",
+      "section_title": "Definitions",
+      "title": "Complainant",
+      "citation": "Definition B.11 (Complainant)",
+      "page": 2,
+      "text": "11. Complainant means a policyholder or prospect or nominee or assignee or any beneficiary of an \ninsurance policy who has filed a complaint or grievance against an insurer and/ or distribution \nchannel.",
+      "codes": [],
+      "annexure": false
+    },
+    {
+      "id": "B.12",
+      "section": "B",
+      "section_title": "Definitions",
+      "title": "Condition Precedent",
+      "citation": "Definition B.12 (Condition Precedent)",
+      "page": 2,
+      "text": "12. Condition Precedent means a Policy term or condition upon which the Company’s liability  under \nthe Policy is conditional upon.",
+      "codes": [],
+      "annexure": false
+    },
+    {
+      "id": "B.13",
+      "section": "B",
+      "section_title": "Definitions",
+      "title": "Congenital Anomaly",
+      "citation": "Definition B.13 (Congenital Anomaly)",
+      "page": 2,
+      "text": "13. Congenital Anomaly refers to a condition(s) which is present since birth, and which is abnormal \nwith reference to form, structure or position.  \na) Internal Congenital Anomaly: Congenital anomaly which is not in the visible and accessible \nparts of the body.  \n \nb) External Congenital Anomaly: Congenital anomaly which is in the visible and accessible parts \nof the body.",
+      "codes": [],
+      "annexure": false
+    },
+    {
+      "id": "B.14",
+      "section": "B",
+      "section_title": "Definitions",
+      "title": "Co-payment",
+      "citation": "Definition B.14 (Co-payment)",
+      "page": 3,
+      "text": "14. Co-payment means a cost sharing requirement under a health insurance policy that provides that \nthe policyholder/insured will bear a specified percentage of the admissible claims amount. A co -\npayment does not reduce the Sum Insured.",
+      "codes": [],
+      "annexure": false
+    },
+    {
+      "id": "B.15",
+      "section": "B",
+      "section_title": "Definitions",
+      "title": "Cumulative Bonus",
+      "citation": "Definition B.15 (Cumulative Bonus)",
+      "page": 3,
+      "text": "15. Cumulative Bonus  means any increase or addition in the Sum Insured granted by the insurer \nwithout an associated increase in premium.",
+      "codes": [],
+      "annexure": false
+    },
+    {
+      "id": "B.16",
+      "section": "B",
+      "section_title": "Definitions",
+      "title": "Chronic renal failure",
+      "citation": "Definition B.16 (Chronic renal failure)",
+      "page": 3,
+      "text": "16. Chronic renal failure: End stage kidney disease characterized by irreversible failure of both kidneys \nto function normally, as a result of which either regular dialysis (hemodialysis or peritoneal dialysis) \nis instituted or a renal transplantation becomes necessary. The diagnosis has to be confirmed by a \nspecialist medical practitioner.",
+      "codes": [],
+      "annexure": false
+    },
+    {
+      "id": "B.17",
+      "section": "B",
+      "section_title": "Definitions",
+      "title": "Claim free year",
+      "citation": "Definition B.17 (Claim free year)",
+      "page": 3,
+      "text": "17. Claim free year means coverage under the Policy for a period of one year during which no claim is \npaid or payable under the terms and conditions of the Policy in respect of Insured Person.",
+      "codes": [],
+      "annexure": false
+    },
+    {
+      "id": "B.18",
+      "section": "B",
+      "section_title": "Definitions",
+      "title": "Day Care Centre",
+      "citation": "Definition B.18 (Day Care Centre)",
+      "page": 3,
+      "text": "18. Day Care Centre means any institution established for day care treatment of disease/ injuries or a \nmedical setup within a hospital and which has been registered with the local authorities, wherever \napplicable, and is under the supervision of a registered and qualified med ical practitioner AND \nmust comply with all minimum criteria as under:  \ni. has qualified nursing staff under its employment;  \nii. has qualified medical practitioner (s) in charge;  \niii. has a fully equipped operation theatre of its own where surgical procedures are carried out  \niv. maintains daily records of patients and shall make these accessible to the Company’s \nauthorized personnel.",
+      "codes": [],
+      "annexure": false
+    },
+    {
+      "id": "B.19",
+      "section": "B",
+      "section_title": "Definitions",
+      "title": "Day Care Treatment",
+      "citation": "Definition B.19 (Day Care Treatment)",
+      "page": 3,
+      "text": "19. Day Care Treatment means medical treatment, and/or surgical procedure which:  \ni. is undertaken in a hospital/ day care centre involving less than twenty-four hours of inpatient \nstay because of technological advancement, and  \nii. would have otherwise required a hospitalization of more than twenty-four hours. [Treatment \ntaken on an out-patient basis is not included in the scope of this definition.]",
+      "codes": [],
+      "annexure": false
+    },
+    {
+      "id": "B.20",
+      "section": "B",
+      "section_title": "Definitions",
+      "title": "Dental Treatment",
+      "citation": "Definition B.20 (Dental Treatment)",
+      "page": 3,
+      "text": "20. Dental Treatment means a treatment carried out by a dental practitioner including examinations, \nfillings (where appropriate), crowns, extractions, and surgery.",
+      "codes": [],
+      "annexure": false
+    },
+    {
+      "id": "B.21",
+      "section": "B",
+      "section_title": "Definitions",
+      "title": "Disclosure to information norm",
+      "citation": "Definition B.21 (Disclosure to information norm)",
+      "page": 3,
+      "text": "21. Disclosure to information norm is  the policy shall be void and all premium paid thereon shall be \nforfeited to the Company in the event of misrepresentation, mis -description or non-disclosure of \nany material fact.",
+      "codes": [],
+      "annexure": false
+    },
+    {
+      "id": "B.22",
+      "section": "B",
+      "section_title": "Definitions",
+      "title": "Domiciliary Hospitalization",
+      "citation": "Definition B.22 (Domiciliary Hospitalization)",
+      "page": 3,
+      "text": "22. Domiciliary Hospitalization means medical treatment for an illness/disease/injury which in the \nnormal course would require care and treatment at a hospital but is actually undertaken while \nconfined at home under medical advice and under any of the following compelling circumstances;  \ni. The condition of the patient is such that he/she is not in a condition to be removed to a \nhospital. or  \nii. The patient takes treatment at home on account of non-availability of room in a hospital.",
+      "codes": [],
+      "annexure": false
+    },
+    {
+      "id": "B.23",
+      "section": "B",
+      "section_title": "Definitions",
+      "title": "Deductible",
+      "citation": "Definition B.23 (Deductible)",
+      "page": 3,
+      "text": "23. Deductible means a cost sharing requirement under a health insurance policy that provides that \nthe insurer will not be liable for a specified rupee amount in case of indemnity policies and for a \nspecified number of days/hours in case of hospital cash policies which will apply before any \nbenefits are payable by the insurer. A deductible does not reduce the Sum Insured.",
+      "codes": [],
+      "annexure": false
+    },
+    {
+      "id": "B.24",
+      "section": "B",
+      "section_title": "Definitions",
+      "title": "Emergency Care",
+      "citation": "Definition B.24 (Emergency Care)",
+      "page": 4,
+      "text": "24. Emergency Care means management for an illness or injury which results in symptoms which occur \nsuddenly and unexpectedly,and requires immediate care by a medical practitioner to prevent \ndeath or serious long term impairment of the insured person’s health.",
+      "codes": [],
+      "annexure": false
+    },
+    {
+      "id": "B.25",
+      "section": "B",
+      "section_title": "Definitions",
+      "title": "Family",
+      "citation": "Definition B.25 (Family)",
+      "page": 4,
+      "text": "25. Family means, the Family that consists of the proposer and any one or more of the family members \nas mentioned below:  \ni. Self,   \nii. legally married spouse (as long as they continue to be married),   \niii. son,  \niv. daughter,   \nv. mother,   \nvi. father,   \nvii. brother,   \nviii.  sister,   \nix. mother in-law,   \nx. father in-law,   \nxi. grandfather,   \nxii. grandmother,   \nxiii. grandson,   \nxiv. granddaughter,   \nxv. son in-law,   \nxvi. daughter in-law,   \nxvii. brother in-law, \nxviii. sister in-law, \nxix. nephew and niece \nAlso, individuals/entities with insurable interest can purchase the policy for individuals e.g - employer \nacting as a proposer for a policy covering employees and their family members. \nNote: Coverage for newborn babies eligible under the definition of family shall be available subject to \ntheir inclusion in the policy with due advance payment of premium and shall be subject otherwise to the \nterms and conditions of the policy including waiting periods.",
+      "codes": [],
+      "annexure": false
+    },
+    {
+      "id": "B.26",
+      "section": "B",
+      "section_title": "Definitions",
+      "title": "Grace Period",
+      "citation": "Definition B.26 (Grace Period)",
+      "page": 4,
+      "text": "26. Grace Period means the specified period of time, immediately following the premium due date \nduring which premium payment can be made to renew or continue a policy in force without loss \nof continuity benefits pertaining to waiting periods and coverage of pre -existing di seases. \nCoverage need not be available during the period for which no premium is received. The grace \nperiod for payment of the premium for all types of insurance policies shall be: fifteen days where \npremium payment mode is monthly and thirty days in all other cases. Provided the insurers shall \noffer coverage during the grace period, if the premium is paid in instalments during the policy \nperiod.",
+      "codes": [],
+      "annexure": false
+    },
+    {
+      "id": "B.27",
+      "section": "B",
+      "section_title": "Definitions",
+      "title": "Hospital",
+      "citation": "Definition B.27 (Hospital)",
+      "page": 4,
+      "text": "27. Hospital means any institution established for in-patient care and day care treatment of disease/ \ninjuries and which has been registered as a hospital with the local authorities under the Clinical \nEstablishments (Registration and Regulation) Act, 2010 or under the enactments specified under \nSchedule of Section 56(1) of the said Act, OR complies with all minimum criteria as under:  \ni. has qualified nursing staff under its employment round the clock;  \n \nii. has at least ten inpatient beds, in those towns having a population of less than ten lakhs and \nfifteen inpatient beds in all other places;  \niii. has qualified medical practitioner (s) in charge round the clock;  \niv. has a fully equipped operation theatre of its own where surgical procedures are carried out  \nv. maintains daily records of patients and shall make these accessible to the Company’s \nauthorized personnel.",
+      "codes": [],
+      "annexure": false
+    },
+    {
+      "id": "B.28",
+      "section": "B",
+      "section_title": "Definitions",
+      "title": "Hospitalization",
+      "citation": "Definition B.28 (Hospitalization)",
+      "page": 5,
+      "text": "28. Hospitalization means admission in a hospital for a minimum period of twenty four (24) \nconsecutive ‘In -patient care’ hours except for specified procedures/ treatments, where such \nadmission could be for a period of less than twenty four (24) consecutive hours.",
+      "codes": [],
+      "annexure": false
+    },
+    {
+      "id": "B.29",
+      "section": "B",
+      "section_title": "Definitions",
+      "title": "Illness",
+      "citation": "Definition B.29 (Illness)",
+      "page": 5,
+      "text": "29. Illness means a sickness or a disease or pathological condition leading to the impairment of normal \nphysiological function which manifests itself during the policy period and requires medical \ntreatment.  \ni Acute Condition means a disease, illness or injury that is likely to response quickly to \ntreatment which aims to return the person to his or her state of health immediately before \nsuffering the disease/ illness/ injury which leads to full recovery.  \nii Chronic Condition means a disease, illness, or injury that has one or more of the following \ncharacteristics  \na) it needs ongoing or long -term monitoring through consultations, examinations, \ncheck-ups, and / or tests  \nb) it needs ongoing or long-term control or relief of symptoms  \nc) it requires rehabilitation for the patient or for the patient to be special trained to cope \nwith it  \nd) it continues indefinitely  \ne) it recurs or is likely to recur",
+      "codes": [],
+      "annexure": false
+    },
+    {
+      "id": "B.30",
+      "section": "B",
+      "section_title": "Definitions",
+      "title": "Injury",
+      "citation": "Definition B.30 (Injury)",
+      "page": 5,
+      "text": "30. Injury means accidental physical bodily harm excluding illness or disease solely and directly caused \nby external, violent and visible and evident means which is verified and certified by a medical \npractitioner.",
+      "codes": [],
+      "annexure": false
+    },
+    {
+      "id": "B.31",
+      "section": "B",
+      "section_title": "Definitions",
+      "title": "In-Patient Care",
+      "citation": "Definition B.31 (In-Patient Care)",
+      "page": 5,
+      "text": "31. In-Patient Care means treatment for which the insured person has to stay in a hospital for more \nthan 24 hours for a covered event.",
+      "codes": [],
+      "annexure": false
+    },
+    {
+      "id": "B.32",
+      "section": "B",
+      "section_title": "Definitions",
+      "title": "Insured Person",
+      "citation": "Definition B.32 (Insured Person)",
+      "page": 5,
+      "text": "32. Insured Person means person(s) named in the schedule of the Policy.",
+      "codes": [],
+      "annexure": false
+    },
+    {
+      "id": "B.33",
+      "section": "B",
+      "section_title": "Definitions",
+      "title": "ICU (Intensive Care Unit)",
+      "citation": "Definition B.33 (ICU (Intensive Care Unit))",
+      "page": 5,
+      "text": "33. ICU (Intensive Care Unit) means an identified section, ward or wing of a hospital which is under \nthe constant supervision of a dedicated medical practitioner(s), and which is specially equipped for \nthe continuous monitoring and treatment of patients who are in a critical condition, or require life \nsupport facilities and where the level of care and supervision is considerably more sophisticated \nand intensive than in the ordinary and other wards.",
+      "codes": [],
+      "annexure": false
+    },
+    {
+      "id": "B.34",
+      "section": "B",
+      "section_title": "Definitions",
+      "title": "ICU (Intensive Care Unit) Charges",
+      "citation": "Definition B.34 (ICU (Intensive Care Unit) Charges)",
+      "page": 5,
+      "text": "34. ICU (Intensive Care Unit) Charges means the amount charged by a Hospital towards ICU expenses \non a per day basis which shall include the expenses for ICU bed, general medical support services \nprovided to any ICU patient including monitoring devices, critical care nursing and intensivist \ncharges.",
+      "codes": [],
+      "annexure": false
+    },
+    {
+      "id": "B.35",
+      "section": "B",
+      "section_title": "Definitions",
+      "title": "Maternity expenses",
+      "citation": "Definition B.35 (Maternity expenses)",
+      "page": 5,
+      "text": "35. Maternity expenses means;  \na) Medical treatment expenses traceable to childbirth (including complicated deliveries and \ncaesarean sections incurred during hospitalization.  \nb) Expenses towards lawful medical termination of pregnancy during the policy period.",
+      "codes": [],
+      "annexure": false
+    },
+    {
+      "id": "B.36",
+      "section": "B",
+      "section_title": "Definitions",
+      "title": "Medical Advice",
+      "citation": "Definition B.36 (Medical Advice)",
+      "page": 6,
+      "text": "36. Medical Advice means any consultation or advice from a Medical Practitioner including the issue \nof any prescription or follow up prescription.",
+      "codes": [],
+      "annexure": false
+    },
+    {
+      "id": "B.37",
+      "section": "B",
+      "section_title": "Definitions",
+      "title": "Medical Expenses",
+      "citation": "Definition B.37 (Medical Expenses)",
+      "page": 6,
+      "text": "37. Medical Expenses means those expenses that an insured person has necessarily and actually \nincurred for medical treatment on account of illness or accident on the advice of a medical \npractitioner, as long as these are no more than would have been payable if the insured person had \nnot been insured and no more than other hospitals or doctors in the same locality would have \ncharged for the same medical treatment.",
+      "codes": [],
+      "annexure": false
+    },
+    {
+      "id": "B.38",
+      "section": "B",
+      "section_title": "Definitions",
+      "title": "Medically Necessary Treatment",
+      "citation": "Definition B.38 (Medically Necessary Treatment)",
+      "page": 6,
+      "text": "38. Medically Necessary Treatment means any treatment, tests, medication, or stay in hospital or part \nof a stay in hospital which  \na. is required for the medical management of illness or injury suffered by the insured;  \nb. must not exceed the level of care necessary to provide safe, adequate and appropriate \nmedical care in scope, duration, or intensity;  \nc. must have been prescribed by a medical practitioner;  \nd. must conform to the professional standards widely accepted in international medical \npractice or by the medical community in India.",
+      "codes": [],
+      "annexure": false
+    },
+    {
+      "id": "B.39",
+      "section": "B",
+      "section_title": "Definitions",
+      "title": "Medical Practitioner",
+      "citation": "Definition B.39 (Medical Practitioner)",
+      "page": 6,
+      "text": "39. Medical Practitioner means a person who holds a valid registration from the Medical Council of \nany state or Medical Council of India or Council for Indian Medicine or for Homeopathy set up by \nthe Government of India or a State Government and is thereby entitled to practice medicine within \nits jurisdiction; and is acting within the scope and jurisdiction of the license. Medical Practitioner \nshould not be the Insured or close family member.",
+      "codes": [],
+      "annexure": false
+    },
+    {
+      "id": "B.40",
+      "section": "B",
+      "section_title": "Definitions",
+      "title": "Migration",
+      "citation": "Definition B.40 (Migration)",
+      "page": 6,
+      "text": "40. Migration means a facility provided to policyholders (including all members under family cover \nand group policies), to transfer the credits gained for pre -existing diseases and specific waiting \nperiods from one health insurance policy to another with the same insurer.",
+      "codes": [],
+      "annexure": false
+    },
+    {
+      "id": "B.41",
+      "section": "B",
+      "section_title": "Definitions",
+      "title": "Mis-selling includes sale or solicitation of policies by the",
+      "citation": "Definition B.41 (Mis-selling includes sale or solicitation of policies by the)",
+      "page": 6,
+      "text": "41. Mis-selling includes sale or solicitation of policies by the insurer or through distribution channels, \ndirectly or indirectly by  \na. exercising undue influence, use of dominant position or otherwise, or  \nb. making a false or misleading statement or misrepresenting the facts or benefits, or  \nc. concealing or omitting facts, features, benefits, exclusions with respect to products, or  \nd. not taking reasonable care to ensure suitability of the policy to the prospects/policyholders.",
+      "codes": [],
+      "annexure": false
+    },
+    {
+      "id": "B.42",
+      "section": "B",
+      "section_title": "Definitions",
+      "title": "Network Provider",
+      "citation": "Definition B.42 (Network Provider)",
+      "page": 6,
+      "text": "42. Network Provider means hospitals enlisted by insurer, TPA or jointly by an insurer and TPA to \nprovide medical services to an insured by a cashless facility.",
+      "codes": [],
+      "annexure": false
+    },
+    {
+      "id": "B.43",
+      "section": "B",
+      "section_title": "Definitions",
+      "title": "New Born Baby",
+      "citation": "Definition B.43 (New Born Baby)",
+      "page": 6,
+      "text": "43. New Born Baby  means a baby born during the Period of Insurance to a female Insured Person, \nwho has Continuous Coverage as per Maternity Waiting period and is aged 90 Day.",
+      "codes": [],
+      "annexure": false
+    },
+    {
+      "id": "B.44",
+      "section": "B",
+      "section_title": "Definitions",
+      "title": "Non- Network Provider",
+      "citation": "Definition B.44 (Non- Network Provider)",
+      "page": 6,
+      "text": "44. Non- Network Provider means any hospital that is not part of the network.",
+      "codes": [],
+      "annexure": false
+    },
+    {
+      "id": "B.45",
+      "section": "B",
+      "section_title": "Definitions",
+      "title": "Notification of Claim",
+      "citation": "Definition B.45 (Notification of Claim)",
+      "page": 6,
+      "text": "45. Notification of Claim means the process of intimating a claim to the Insurer or TPA through any of \nthe recognized modes of communication.",
+      "codes": [],
+      "annexure": false
+    },
+    {
+      "id": "B.46",
+      "section": "B",
+      "section_title": "Definitions",
+      "title": "Out-Patient (OPD) Treatment",
+      "citation": "Definition B.46 (Out-Patient (OPD) Treatment)",
+      "page": 6,
+      "text": "46. Out-Patient (OPD) Treatment means treatment in which the insured visits a clinic / hospital or \nassociated facility like a consultation room for diagnosis and treatment based on the advice of a \nmedical practitioner. The insured is not admitted as a day care or in-patient.",
+      "codes": [],
+      "annexure": false
+    },
+    {
+      "id": "B.47",
+      "section": "B",
+      "section_title": "Definitions",
+      "title": "Pre-existing disease (PED)",
+      "citation": "Definition B.47 (Pre-existing disease (PED))",
+      "page": 6,
+      "text": "47. Pre-existing disease (PED) means any condition, ailment, injury or disease: \na) that is/are diagnosed by a physician not more than 36 months prior to the date of \ncommencement of the policy issued by the insurer; or \n \nb) for which medical advice or treatment was recommended by, or received from, a physician, not \nmore than 36 months prior to the date of commencement of the policy.",
+      "codes": [],
+      "annexure": false
+    },
+    {
+      "id": "B.48",
+      "section": "B",
+      "section_title": "Definitions",
+      "title": "Pre-hospitalization Medical Expenses",
+      "citation": "Definition B.48 (Pre-hospitalization Medical Expenses)",
+      "page": 7,
+      "text": "48. Pre-hospitalization Medical Expenses means medical expenses incurred during pre -defined \nnumber of days preceding the hospitalization of the Insured Person, provided that:  \na. Such Medical Expenses are incurred for the same condition for which the Insured Person’s  \nHospitalization was required, and  \nb. The In-patient Hospitalization claim for such. Hospitalization is admissible by the Insurance \nCompany.",
+      "codes": [],
+      "annexure": false
+    },
+    {
+      "id": "B.49",
+      "section": "B",
+      "section_title": "Definitions",
+      "title": "Post-hospitalization Medical Expenses",
+      "citation": "Definition B.49 (Post-hospitalization Medical Expenses)",
+      "page": 7,
+      "text": "49. Post-hospitalization Medical Expenses means medical expenses incurred during pre -defined \nnumber of days immediately after the insured person is discharged from the hospital provided \nthat:  \na. Such Medical Expenses are for the same condition for which the insured person’s \nhospitalization was required, and   \nb. The inpatient hospitalization claim for such hospitalization is admissible by the Insurance \nCompany.",
+      "codes": [],
+      "annexure": false
+    },
+    {
+      "id": "B.50",
+      "section": "B",
+      "section_title": "Definitions",
+      "title": "Portability",
+      "citation": "Definition B.50 (Portability)",
+      "page": 7,
+      "text": "50. Portability means a facility provided to the health insurance policyholders (including all members \nunder family cover), to transfer the credits gained for, pre -existing diseases and specific waiting \nperiods from one insurer to another insurer.",
+      "codes": [],
+      "annexure": false
+    },
+    {
+      "id": "B.51",
+      "section": "B",
+      "section_title": "Definitions",
+      "title": "Policy",
+      "citation": "Definition B.51 (Policy)",
+      "page": 7,
+      "text": "51. Policy means these Policy wordings, the Policy Schedule and any applicable endorsements or \nextensions attaching to or forming part thereof. The Policy contains details of the extent of  cover \navailable to the Insured person, what is excluded from the cover and the terms & conditions on \nwhich the Policy is issued to the Insured person.",
+      "codes": [],
+      "annexure": false
+    },
+    {
+      "id": "B.52",
+      "section": "B",
+      "section_title": "Definitions",
+      "title": "Policy Period",
+      "citation": "Definition B.52 (Policy Period)",
+      "page": 7,
+      "text": "52. Policy Period means period of one policy year as mentioned in the schedule for which the Policy is \nissued.",
+      "codes": [],
+      "annexure": false
+    },
+    {
+      "id": "B.53",
+      "section": "B",
+      "section_title": "Definitions",
+      "title": "Policy Schedule",
+      "citation": "Definition B.53 (Policy Schedule)",
+      "page": 7,
+      "text": "53. Policy Schedule means the Policy Schedule attached to and forming part of Policy.",
+      "codes": [],
+      "annexure": false
+    },
+    {
+      "id": "B.54",
+      "section": "B",
+      "section_title": "Definitions",
+      "title": "Policy year",
+      "citation": "Definition B.54 (Policy year)",
+      "page": 7,
+      "text": "54. Policy year means a period of twelve months beginning from the date of commencement of the \npolicy period and ending on the last day of such twelve -month period. For the purpose of \nsubsequent years, policy year shall mean a period of twelve months commencing from the end of \nthe previous policy year and lapsing on the last day of such twelve -month period, till the policy \nperiod, as mentioned in the schedule.",
+      "codes": [],
+      "annexure": false
+    },
+    {
+      "id": "B.55",
+      "section": "B",
+      "section_title": "Definitions",
+      "title": "Proposal form",
+      "citation": "Definition B.55 (Proposal form)",
+      "page": 7,
+      "text": "55. Proposal form  means a form to be filled in by the prospect in physical or electronic form, for \nfurnishing the information including material information, if any, as required by the insurer in \nrespect of a risk, in order to enable the insurer to take informed decision i n the context of \nunderwriting the risk, and in the event of acceptance of the risk, to determine the rates, \nadvantages, terms and conditions of the cover to be granted.",
+      "codes": [],
+      "annexure": false
+    },
+    {
+      "id": "B.56",
+      "section": "B",
+      "section_title": "Definitions",
+      "title": "Prospect",
+      "citation": "Definition B.56 (Prospect)",
+      "page": 7,
+      "text": "56. Prospect means any person who is a potential customer and likely to enter into an insurance \ncontract either directly with the insurer or through the distribution channel involved.",
+      "codes": [],
+      "annexure": false
+    },
+    {
+      "id": "B.57",
+      "section": "B",
+      "section_title": "Definitions",
+      "title": "Prospectus",
+      "citation": "Definition B.57 (Prospectus)",
+      "page": 7,
+      "text": "57. Prospectus means a document either in physical or electronic format issued by the insurer to  \nsell or promote the insurance product.",
+      "codes": [],
+      "annexure": false
+    },
+    {
+      "id": "B.58",
+      "section": "B",
+      "section_title": "Definitions",
+      "title": "Qualified Nurse",
+      "citation": "Definition B.58 (Qualified Nurse)",
+      "page": 7,
+      "text": "58. Qualified Nurse means a person who holds a valid registration from the Nursing Council of India \nor the Nursing Council of any state in India.",
+      "codes": [],
+      "annexure": false
+    },
+    {
+      "id": "B.59",
+      "section": "B",
+      "section_title": "Definitions",
+      "title": "Reasonable and Customary charges  mean the charges for servi",
+      "citation": "Definition B.59 (Reasonable and Customary charges  mean the charges for servi)",
+      "page": 7,
+      "text": "59. Reasonable and Customary charges  mean the charges for services or supplies, which are the \nstandard charges for the specific provider and consistent with the prevailing charges in the \n \ngeographical area for identical or similar services, taking into account the nature of the Illness / \nInjury involved.",
+      "codes": [],
+      "annexure": false
+    },
+    {
+      "id": "B.60",
+      "section": "B",
+      "section_title": "Definitions",
+      "title": "Renewal",
+      "citation": "Definition B.60 (Renewal)",
+      "page": 8,
+      "text": "60. Renewal: Renewal means the terms on which the contract of insurance can be renewed on mutual \nconsent with a provision of grace period for treating the renewal continuous for the purpose of \ngaining credit for pre-existing diseases, time-bound exclusions and for all waiting periods.",
+      "codes": [],
+      "annexure": false
+    },
+    {
+      "id": "B.61",
+      "section": "B",
+      "section_title": "Definitions",
+      "title": "Renal failure",
+      "citation": "Definition B.61 (Renal failure)",
+      "page": 8,
+      "text": "61. Renal failure is a condition in which the kidneys lose the ability to remove waste and balance Acute \nrenal failure (arf) is the abrupt loss of kidney function, resulting in the retention of metabolic waste \nproducts and dysregulation of volume and electrolytes of body f luids. The medical term Acute \nKidney Injury (AKI) has now largely replaced ARF in the medical communities (Injury not necessarily \nrelated to Accidents), reflecting the recognition that smaller decrements in kidney function that \ndo not result i n overt organ failure are of substantial clinical relevance and are associated with \nincreased morbidity and mortality.",
+      "codes": [],
+      "annexure": false
+    },
+    {
+      "id": "B.62",
+      "section": "B",
+      "section_title": "Definitions",
+      "title": "Room Rent",
+      "citation": "Definition B.62 (Room Rent)",
+      "page": 8,
+      "text": "62. Room Rent means the amount charged by a hospital towards Room and Boarding expenses and \nshall include the associated medical expenses.",
+      "codes": [],
+      "annexure": false
+    },
+    {
+      "id": "B.63",
+      "section": "B",
+      "section_title": "Definitions",
+      "title": "Renal transplantation",
+      "citation": "Definition B.63 (Renal transplantation)",
+      "page": 8,
+      "text": "63. Renal transplantation:  Kidney transplantation is a surgical procedure to remove healthy and \nfunctioning kidney from a living or brain -dead donor and implant it into a patient with non -\nfunctioning kidneys.",
+      "codes": [],
+      "annexure": false
+    },
+    {
+      "id": "B.64",
+      "section": "B",
+      "section_title": "Definitions",
+      "title": "Specific waiting period",
+      "citation": "Definition B.64 (Specific waiting period)",
+      "page": 8,
+      "text": "64. Specific waiting period  means a period up to 36 months from the commencement of a health \ninsurance policy during which period specified diseases/treatments (except due to an accident) \nare not covered. On completion of the period, diseases/treatments shall be covered provided the \npolicy has been continuously renewed without any break.",
+      "codes": [],
+      "annexure": false
+    },
+    {
+      "id": "B.65",
+      "section": "B",
+      "section_title": "Definitions",
+      "title": "Surgery or Surgical Procedure",
+      "citation": "Definition B.65 (Surgery or Surgical Procedure)",
+      "page": 8,
+      "text": "65. Surgery or Surgical Procedure  means manual and / or operative procedure (s) required for \ntreatment of an illness or injury, correction of deformities and defects, diagnosis and cure of \ndiseases, relief of suffering and prolongation of life, performed in a hospital or day care centre b y \na medical practitioner.",
+      "codes": [],
+      "annexure": false
+    },
+    {
+      "id": "B.66",
+      "section": "B",
+      "section_title": "Definitions",
+      "title": "Sub-limit",
+      "citation": "Definition B.66 (Sub-limit)",
+      "page": 8,
+      "text": "66. Sub-limit means a cost sharing requirement under a health insurance policy in which an insurer \nwould not be liable to pay any amount in excess of the pre-defined limit",
+      "codes": [],
+      "annexure": false
+    },
+    {
+      "id": "B.67",
+      "section": "B",
+      "section_title": "Definitions",
+      "title": "Sum Insured",
+      "citation": "Definition B.67 (Sum Insured)",
+      "page": 8,
+      "text": "67. Sum Insured means the pre-defined limit specified in the Policy Schedule. Sum Insured represents \nthe maximum, total and cumulative liability for any and all claims made under the Policy, in respect \nof that Insured Person (on Individual basis) or all Insured Persons ( on Floater basis) during the \nPolicy Year.",
+      "codes": [],
+      "annexure": false
+    },
+    {
+      "id": "B.68",
+      "section": "B",
+      "section_title": "Definitions",
+      "title": "Third Party Administrator (TPA)",
+      "citation": "Definition B.68 (Third Party Administrator (TPA))",
+      "page": 8,
+      "text": "68. Third Party Administrator (TPA) means a Company registered with the Authority, and engaged by \nan insurer, for a fee or by whatever name called and as may be mentioned in the health services \nagreement, for providing health services.",
+      "codes": [],
+      "annexure": false
+    },
+    {
+      "id": "B.69",
+      "section": "B",
+      "section_title": "Definitions",
+      "title": "Unproven/ Experimental treatment",
+      "citation": "Definition B.69 (Unproven/ Experimental treatment)",
+      "page": 8,
+      "text": "69. Unproven/ Experimental treatment means treatment including drug experimental therapy, which \nis not based on established medical practice in India, is treatment experimental or unproven.",
+      "codes": [],
+      "annexure": false
+    },
+    {
+      "id": "B.70",
+      "section": "B",
+      "section_title": "Definitions",
+      "title": "Waiting Period",
+      "citation": "Definition B.70 (Waiting Period)",
+      "page": 8,
+      "text": "70. Waiting Period  means a period from the inception of this Policy during which specified \ndiseases/treatments are not covered. On completion of the period, diseases/treatments shall be \ncovered provided the Policy has been continuously renewed without any break.",
+      "codes": [],
+      "annexure": false
+    },
+    {
+      "id": "B.71",
+      "section": "B",
+      "section_title": "Definitions",
+      "title": "We/ Us/ Company",
+      "citation": "Definition B.71 (We/ Us/ Company)",
+      "page": 8,
+      "text": "71. We/ Us/ Company means Universal Sompo General Insurance Company",
+      "codes": [],
+      "annexure": false
+    },
+    {
+      "id": "B.72",
+      "section": "B",
+      "section_title": "Definitions",
+      "title": "You/ Your",
+      "citation": "Definition B.72 (You/ Your)",
+      "page": 8,
+      "text": "72. You/ Your means the person who has taken this Policy and is shown as Insured or the first insured \n(if more than one) in the Schedule.",
+      "codes": [],
+      "annexure": false
+    },
+    {
+      "id": "C.1",
+      "section": "C",
+      "section_title": "Benefits/Coverages",
+      "title": "Inpatient Treatment",
+      "citation": "Section C.1 (Inpatient Treatment)",
+      "page": 9,
+      "text": "1. Inpatient Treatment \nWe will cover expenses for hospitalization due to disease/illness/Injury during the policy period that \nrequires an Insured Person’s admission in a hospital as an inpatient. Medical expenses directly related \nto the hospitalization for;  \na. Reasonable and Customary Charges for Room Rent for accommodation in Hospital room up to \nCategory as per opted Sum Insured and Single Pvt Ac Room for the basic plan as specified in the \nPolicy Schedule.  \nb. Intensive Care Unit charges for accommodation in ICU,  \nc. Operation theatre charges,  \nd. Fees of Medical Practitioner/ Surgeon,  \ne. Anesthetist,  \nf. Qualified Nurses,  \ng. Specialists,  \nh. Cost of diagnostic tests,  \ni. Medicines,  \nj. Drugs and consumables, blood, oxygen, surgical appliances and prosthetic devices recommended \nby the attending Medical Practitioner and that are used intra operatively during a Surgical \nProcedure.  \nk. Modern Treatment  \nFollowing Modern Treatments will be covered up to 25% of the Sum Insured ( For Silver, Gold and \nDiamond Plan) or up to 50% of the Sum Insured (For Basic plan) either as Inpatient or as part of Day Care \nTreatment in a Hospital;  \ni. Uterine Artery Embolization and HIFU (High intensity focused ultrasound)  \nii. Balloon Sinuplasty  \niii. Deep Brain stimulation  \niv. Oral chemotherapy  \nv. Immunotherapy- Monoclonal Antibody to be given as injection  \nvi. Intra vitreal injections  \nvii. Robotic surgeries  \nviii. Stereotactic radio surgeries  \nix. Bronchical Thermoplasty  \nx. Vaporisation of the prostrate (Green laser treatment or holmium laser treatment)   \nxi. IONM - (Intra Operative Neuro Monitoring)  \nxii. Stem cell therapy: Hematopoietic stem cells for bone marrow transplant for haematological \nconditions to be covered.",
+      "codes": [],
+      "annexure": false
+    },
+    {
+      "id": "C.2",
+      "section": "C",
+      "section_title": "Benefits/Coverages",
+      "title": "Pre- Hospitalization",
+      "citation": "Section C.2 (Pre- Hospitalization)",
+      "page": 9,
+      "text": "2. Pre- Hospitalization   \nWe will cover for expenses for Pre-Hospitalization Consultations, investigations and medicines incurred \nup to the Number of days as mentioned in the Policy Schedule before the date of admission to the \nhospital. The benefit is payable if We have admitted a claim under Section C.1",
+      "codes": [],
+      "annexure": false
+    },
+    {
+      "id": "C.3",
+      "section": "C",
+      "section_title": "Benefits/Coverages",
+      "title": "Post- Hospitalization",
+      "citation": "Section C.3 (Post- Hospitalization)",
+      "page": 10,
+      "text": "3. Post- Hospitalization   \nWe will cover for expenses for Post Hospitalization Consultations, investigations and medicines incurred \nup to the Number of days as mentioned in the Policy Schedule after discharge from the hospital. The \nbenefit is payable if We have admitted a claim under Section C.1",
+      "codes": [],
+      "annexure": false
+    },
+    {
+      "id": "C.4",
+      "section": "C",
+      "section_title": "Benefits/Coverages",
+      "title": "Day Care Procedures",
+      "citation": "Section C.4 (Day Care Procedures)",
+      "page": 10,
+      "text": "4. Day Care Procedures   \nWe will cover expenses for listed Day Care Treatment due to disease/illness/Injury during the policy \nperiod taken at a hospital or a Day Care Centre. The list of such day care procedures covered is attached \nas an Annexure I. Treatment normally taken on out -patient basis is not included in the scope of this \ncover.",
+      "codes": [],
+      "annexure": false
+    },
+    {
+      "id": "C.5",
+      "section": "C",
+      "section_title": "Benefits/Coverages",
+      "title": "Ayush Treatment",
+      "citation": "Section C.5 (Ayush Treatment)",
+      "page": 10,
+      "text": "5. Ayush Treatment  \nWe will pay for the Medical Expenses incurred by the Insured Person in any AYUSH Hospital for Inpatient \nCare under Ayurveda, Yoga and Naturopathy, Unani, Siddha and Homeopathy systems of medicines \nduring each Policy Year up to the Inpatient Treatment Sum Insured.",
+      "codes": [],
+      "annexure": false
+    },
+    {
+      "id": "C.6",
+      "section": "C",
+      "section_title": "Benefits/Coverages",
+      "title": "Domiciliary Treatment",
+      "citation": "Section C.6 (Domiciliary Treatment)",
+      "page": 10,
+      "text": "6. Domiciliary Treatment   \nWe will cover for expenses related to Domiciliary Hospitalization of the insured person if the treatment \nexceeds beyond three days. The treatment must be for management of an illness and not for enteral \nfeedings or end of life care. At the time of claiming under this benefit, we shall require certification from \nthe treating doctor fulfilling the conditions as mentioned under the definitions of this policy. This cover \nis not applicable for Basic plan.",
+      "codes": [],
+      "annexure": false
+    },
+    {
+      "id": "C.7",
+      "section": "C",
+      "section_title": "Benefits/Coverages",
+      "title": "Second Opinion",
+      "citation": "Section C.7 (Second Opinion)",
+      "page": 10,
+      "text": "7. Second Opinion  \nWe will provide You a second opinion from Network Provider or Medical Practitioner, if an Insured \nPerson is diagnosed with the below mentioned Illnesses during the Policy Period and not be valid for any \nmedico legal purposes. The expert opinion would be directly sent to the Insured Person.   \ni. Cancer   \nii. Kidney Failure   \niii. Myocardial Infarction   \niv. Angina  \nv. Coronary bypass surgery  \nvi. Stroke/Cerebral hemorrhage \nvii. Organ failure requiring   transplant   \nviii. Heart Valve replacement   \nix. Brain tumors   \nThis benefit can be availed by an Insured Person once during a Policy Year. This cover is not applicable \nfor Basic plan.",
+      "codes": [],
+      "annexure": false
+    },
+    {
+      "id": "C.8",
+      "section": "C",
+      "section_title": "Benefits/Coverages",
+      "title": "Ambulance Cover",
+      "citation": "Section C.8 (Ambulance Cover)",
+      "page": 11,
+      "text": "8. Ambulance Cover  \nWe will cover for expenses incurred on transportation of Insured Person in a registered ambulance to a \nHospital for an admission, in case of an Emergency or from one hospital to another hospital for better \nmedical facilities and treatment, subject to the limit specified in Policy Schedule per Hospitalization. For \nthis claim to be paid, the claim must be admissible under section C.1 of this policy. This cover is not \napplicable for Basic Plan.",
+      "codes": [],
+      "annexure": false
+    },
+    {
+      "id": "C.9",
+      "section": "C",
+      "section_title": "Benefits/Coverages",
+      "title": "Auto Restore Benefit",
+      "citation": "Section C.9 (Auto Restore Benefit)",
+      "page": 11,
+      "text": "9. Auto Restore Benefit  \nWe will restore the Sum insured up to 100% of Base Sum Insured, in the event of complete or \npartial utilization of the Base Sum Insured due to any claim admitted during the Policy Year \nirrespective of the utilization of the Cumulative Bonus. \nSpecial Conditions:  \na. This Automatic Restore Benefit shall be applied only once during each Policy Year and any \nunutilized amount, in whole or in part, will not be carried forward to the subsequent Policy Year.  \nb. The Base Sum Insured restoration under the Automatic Restore Benefit would be triggered only \nupon complete or partial utilization of the Base Sum Insured by the way of first claim admitted \nunder the Policy,  and be available for subsequent claims thereafter in the Policy Year, for the \nInsured Person.  \nc. In case of a family floater policy, the Automatic Restore Benefit will be available on floater basis \nfor all Insured Persons covered under the Policy and will operate in accordance with the above \nconditions.  \nd. This cover is not applicable for Basic Plan.",
+      "codes": [],
+      "annexure": false
+    },
+    {
+      "id": "C.10",
+      "section": "C",
+      "section_title": "Benefits/Coverages",
+      "title": "OPD Expenses",
+      "citation": "Section C.10 (OPD Expenses)",
+      "page": 11,
+      "text": "10. OPD Expenses (Applicable only for Diamond plan)  \nWe will reimburse expenses incurred on Outpatient Treatment for the Insured Persons as mentioned in \nthe Policy Schedule, provided that  \ni. This limit will apply on Individual basis in case of Individual Policy and on Family Floater basis in \ncase of Family Floater Policy and  \nii. The condition of minimum Hospitalization of 24 hours as an in -patient under Benefit stands \ndeleted.  \niii. The reimbursement of claims under this extension shall be done only once during each Policy Year \nof the Policy Period. No claim will be admissible which is made 30 days after the expiry of Policy.  \niv. You have renewed the Policy consecutively without a break.  \nv. Any claim made in respect of this benefit will not be subject to In-patient Sum Insured and will not \naffect entitlement to a Cumulative Bonus and health check up, if applicable.  \nvi. Exclusion F.ii.3 stands deleted.",
+      "codes": [],
+      "annexure": false
+    },
+    {
+      "id": "C.11",
+      "section": "C",
+      "section_title": "Benefits/Coverages",
+      "title": "Global Cover",
+      "citation": "Section C.11 (Global Cover)",
+      "page": 11,
+      "text": "11. Global Cover (Applicable only for Diamond plan)  \nWe will reimburse the Medical Expenses of the Insured Person incurred outside India for not more than \n180 consecutive days and maximum up to the sum insured, provided that the diagnosis was made in \nIndia and referred by Medical Practitioner for which the insured member(s) travels abroad for treatment \n \noutside India as mentioned in the Policy Schedule. Global Cover is applicable subject to following terms \nand Conditions.  \ni. A Deductible of 10% on Sum Insured will apply for expenses under all the respective covers \nseparately for each claim.  \nii. The payment of any claim under this benefit will be in Indian Rupees based on the rate of exchange \nas on the date of invoice, published by Reserve Bank of India (RBI) and shall be   used for conversion \nof foreign currency into Indian Rupees for claims payment. If these rates are not published on the \ndate of invoice, the exchange rate next published by RBI shall be considered for conversion.   \niii. All other terms and conditions of the respective Section and Covers under the policy shall remain \nunaltered. \niv. Only basic sum insured along with Cumulative Bonus can be used for this Coverage.",
+      "codes": [],
+      "annexure": false
+    },
+    {
+      "id": "C.12",
+      "section": "C",
+      "section_title": "Benefits/Coverages",
+      "title": "Psychiatric Illness",
+      "citation": "Section C.12 (Psychiatric Illness)",
+      "page": 12,
+      "text": "12. Psychiatric Illness  \nWe will pay for the Medical Expenses, related to Psychiatric Illness, provided that: \na) The first diagnosis and Hospitalization, as an inpatient, was during the Policy Period.  \nb) This also has a waiting period and Sub-Limit as opted by You and mentioned in Your Policy Schedule \nfor specific Psychiatric illnesses or disorders listed in the table below.   \n \nWaiting period shall be as per the “Specific Waiting Period. G.2” Section stated in Your Schedule against \nthis Cover which shall apply from the date of inception of the first policy with Us, provided that the Policy \nhas been renewed continuously with Us without break, with Psychiatric as a benefit since inception of \nthe first policy.  \nICD Code   Psychiatric Illness & Disorders  \nF20- F29  Schizophrenia, schizotypal and delusional disorders  \nF30- F39  Mood [affective] disorders  \nF40- F48  Neurotic, stress-related and somatoform disorders  \nF99- F99  Unspecified mental disorder  \nc) Hospitalization under this benefit shall be subject to prior approval from Us, except in cases of \nemergencies.  \nd) This cover is not applicable for Basic Plan.",
+      "codes": [],
+      "annexure": false
+    },
+    {
+      "id": "C.13",
+      "section": "C",
+      "section_title": "Benefits/Coverages",
+      "title": "Organ Donor",
+      "citation": "Section C.13 (Organ Donor)",
+      "page": 12,
+      "text": "13. Organ Donor \nWe will cover for Medical and surgical Expenses of the organ donor for harvesting the organ  where an \nInsured Person is the recipient provided that:   \ni. The organ donor is any person whose organ has been made available in accordance and in \ncompliance with The Transplantation of Human Organs (Amendment) Bill, 2011 and the organ \ndonated is for the use of the Insured Person, and   \nii. We have accepted an inpatient Hospitalization claim for the insured member under In Patient \nHospitalization Treatment (Section C.1) \niii. This cover is not applicable for the Basic Plan.",
+      "codes": [],
+      "annexure": false
+    },
+    {
+      "id": "C.14#1",
+      "section": "C",
+      "section_title": "Benefits/Coverages",
+      "title": "Assistance Services",
+      "citation": "Section C.14 (Assistance Services)",
+      "page": 13,
+      "text": "14. Assistance Services  \nThe company will provide the below services which will be available when the Insured/  Insured \nmember(s) is/  are more than 150 kilometers away from their residential address as provided in the \nProposal Form. The services would be provided by the company /through our appointed Service \nprovider, with prior intimation and acceptance by the Company.  \n  \na. Medical Consultation, Evaluation and Referral : In case of any emergency, The Company/our \nService Provider will evaluate, troubleshoot and make immediate recommendations including \nreferrals to qualified doctors and/or hospitals.   \nb. Medical Monitoring and Case Management : A team of doctors, nurses, and other medically \ntrained personnel would be in regular communication with the attending physician and hospital, \nmonitors appropriate levels of care and relay necessary and legally permissible information to the \nmembers of the Family / employer.   \nc. Emergency Medical Evacuation : If the Insured / Insured member/s becomes ill or injured in an \narea where appropriate care is not available, the Company /via Service Provider will intervene and \nuse available transportation, equipment and personnel necessary to evacuate the Individual safely \nto the nearest facility for medical care. This shall also include Air Ambulance services if required.  \nd. Medical Repatriation (Transportation ): When medically necessary, as determined by Company \nand the consulting Medical Practitioner, transportation under medical supervision shall be \nprovided in respect of the Insured Person to the residential address as mentioned in the Schedule, \nprovided tha t the Insured Person is medically cleared for travel via commercial carrier,and ",
+      "codes": [],
+      "annexure": false,
+      "parent": "C.14",
+      "part": "1/2"
+    },
+    {
+      "id": "C.14#2",
+      "section": "C",
+      "section_title": "Benefits/Coverages",
+      "title": "Assistance Services",
+      "citation": "Section C.14 (Assistance Services)",
+      "page": 13,
+      "text": "provided further that the transportation can be accomplished without compromising the Insured \nPerson’s medical condition.  \ne. Compassionate Visit : When an Insured Person/s is/  are hospitalized for more than seven (7) \nconsecutive days, The Company/ Service Provider will arrange for a family member or a personal \nfriend to travel to visit the Insured Person/s, by providing an appropriate means of transportation.  \n \nThis cover is not applicable for the Basic Plan.",
+      "codes": [],
+      "annexure": false,
+      "parent": "C.14",
+      "part": "2/2"
+    },
+    {
+      "id": "C.15#1",
+      "section": "C",
+      "section_title": "Benefits/Coverages",
+      "title": "Wellness Services",
+      "citation": "Section C.15 (Wellness Services)",
+      "page": 13,
+      "text": "15. Wellness Services  \nThe Company offers  a comprehensive program to maintain the health and overall wellbeing of the \ninsured person. The insured person is provided with an individual access to web based Health portal at \nCompany’s website and/or a Wellness mobile application by the Company where he/she can perform \nvarious healthcare activities as listed below.  \ni. Health Risk Assessment (HRA):  HRA is process of health risk assessment with the help of a \nquestionnaire, by collecting the information from the insured in a systematic manner and evaluate \ntheir health risks. The Health Risk Assessment generates a statistical estimate of insured person ’s \noverall health risk status and quality of lifestyle. The HRA shall be self  performed by the insured \nperson. We will aid the insured person to complete the HRA whenever required. \nii. Electronic Health Records: The Insured person can store the medical test reports, prescriptions \nand other consultation papers in the personalized portal which gets digitized to help create a \n \ncomplete health profile of the insured person. The medical test reports along with HRA as specified \nabove will provide a health score to depict the health status of the insured person.  \niii. Health Screening:  Basis the health score of the insured person, the insured person shall be \ncategorized as Healthy, in which case there will be no trigger for medical screening. If the score \ndepicts unhealthy status, medical screening is advised to the insured person along  with a “Health \nGoal” which is identified post identification of risk factors for improving insured person’s overall \nwell-being. “Health Goal”, which basically takes a deep dive in the identified risk areas to establish \nthe focus points in that particular risk area.   ",
+      "codes": [],
+      "annexure": false,
+      "parent": "C.15",
+      "part": "1/5"
+    },
+    {
+      "id": "C.15#2",
+      "section": "C",
+      "section_title": "Benefits/Coverages",
+      "title": "Wellness Services",
+      "citation": "Section C.15 (Wellness Services)",
+      "page": 13,
+      "text": "iv. Eye Care  \nThe company will provide coupons/ discounts towards vision tests and related expenses for the \nMedical Expenses listed below, in respect of the Insured Person, if specified under the Policy \nSchedule/ Certificate of Insurance:  \n• A single examination of the eyes by an optometrist or ophthalmologist per Policy Year;  \n• Discounts towards lens, eyeglass frames, prescription sunglasses to correct vision.  \nThis Benefit will exclude:  \n• sunglasses, unless medically prescribed by a Medical Practitioner.  \n• Medical Treatment or Surgical Treatment of the eye/s;  \n• lenses which are not a medical necessity and are not prescribed by an optometrist or \nophthalmologist or frames for such lenses.  \nThe services would be provided by the company /through our appointed Service provider, with \nprior intimation and acceptance by the Company. \nv. Wellness Reward Program: The Wellness Reward Program (WRP) aims to encourage the insured \nperson to perform certain activities to stay active and medically fit. WRP is an award program \nwherein the Insured Person can earn the reward points termed as “USGI Coins” by performing the \nactivities as mentioned in the below Table. The points can be redeemed against array of options \nprovided as mentioned hereunder which would help the Insured to improve his/her overall Health \nStatus.  \n(i) For an individual as well as Family Floater policy, the earning of USGI coins shall be considered \non individual member basis up to the maximum limit as specified under every category per \npolicy year.  \n(ii) The Company shall specify the Wellness Rewards – Earning and Redemption categories as \nwell as Earned but not utilized USGI coins in the policy schedule. The details of USGI coins ",
+      "codes": [],
+      "annexure": false,
+      "parent": "C.15",
+      "part": "2/5"
+    },
+    {
+      "id": "C.15#3",
+      "section": "C",
+      "section_title": "Benefits/Coverages",
+      "title": "Wellness Services",
+      "citation": "Section C.15 (Wellness Services)",
+      "page": 13,
+      "text": "would also be available at the Company’s Health Portal and/or Mobile Application.  \n(iii) USGI coins earned in this section of the policy are valid up to 4 years from the date of renewal \nof this policy (including any grace period applicable) and would not be carried forward \nthereafter.  \n(iv) Each USGI coin shall have the value equivalent to Rs.0.25.  \n(v) The USGI coins can be earned in the following ways as mentioned in the given Table:  \n \nTable: Earn Rewards (in form of USGI coins)  \n \n \nActivities for Earning Wellness Rewards  Rewards/ USGI \nCoins earned by \nIndividual  \nMax USGI Coins \nearned by \nIndividual Per \nPolicy Year  \nOn completion of HRA on \nHealth Portal/Mobile  \napplication  \nHRA Completion within 90 \ndays from Policy Inception \nDate  \n500  500  \nHRA outcome without any \nadverse report  \nCover 2.5 to 3.5 lakhs steps in \na month  \n100/month  500  \nHRA Outcome of having \nLarge waist size (> 40 \ninches)  \nCover minimum 2 lakhs steps \nin a month   \n100/month  500  \nCover above 2 lakh steps in a \nmonth   \n150/month  1000  \nBlood pressure for a \nknown case of \nHypertension  \nBlood Pressure is below or \nequal to -  \n150/month  500  \nSBP:120-140 mm/Hg  \nDBP: 80-90 mm/Hg  \nSBP - Systolic Blood Pressure; \nDBP – Diastolic Blood Pressure   \nBlood sugar levels for a \nknown case of Diabetes  \nHBA1C within normal \nlimits ≤ 5.6   \n150/quarter  500  \nLipid profile Level for a \nknown case of \nDyslipidemia  \nLipid levels are normal within \nrange as applicable to the \nLaboratory  \n150/quarter  500  \nBody Mass Index (BMI) for \na known case of High BMI \nInsured Person/s >=30 \noptimum BMI  \nBMI between 31 to 35 and \nreduce your BMI to the \nOptimum range  \n100/quarter  200  \nBMI between 35 to 39 and \nreduce your BMI to the \noptimum range  \n150/quarter  300  ",
+      "codes": [],
+      "annexure": false,
+      "parent": "C.15",
+      "part": "3/5"
+    },
+    {
+      "id": "C.15#4",
+      "section": "C",
+      "section_title": "Benefits/Coverages",
+      "title": "Wellness Services",
+      "citation": "Section C.15 (Wellness Services)",
+      "page": 13,
+      "text": "BMI between 40 to 42 and \nreduce your BMI to the \noptimum range  \n250/quarter  500  \nHealth Tests for Heart \nRelated, Blood Sugar, \nThyroid/ Lipid etc. \nMonitoring  \non Submission of Reports  150/quarter  300  \nAnnual membership for \nDance/ Zumba/ Aerobic/ \nGymnastic/ Yoga/  Gym/ \nSwimming  \nProvide attendance Register/  \nletter/ medal/ trophies/ BIB \nnumber (as applicable) from \nthe respective facility provider.  \n150/quarter  400  \n \nParticipate in professional \nsport events like \nMarathon/ Cyclothon/ \nSwimathon   \nProvide attendance Register/  \nletter/ medal/ trophies/ BIB \nnumber (as applicable) from \nthe respective facility provider.  \n100/event  500  \nCompetitive  Sports: \nSchool Level  \nParticipation Certificate from \nSchool  \n20/sport  50  \nCompetitive Sports: \nNational/ State Level  \nParticipation Certificate from \nrelevant sports authority  \n75/sport  150  \nDownload the Wellness \nApplication  \n   150  150  \nRefer a Friend to buy USGI \npolicy  \n   100/referral  300  \nSum Insured Enhancement     100  100  \nPledge to Quit Smoking     150  150  \nWater Intake  3-4 litres per day, to be \nupdated on App  \n50/month  200  \n  \nRedemption of USGI coins:  \n \n1  Facilities as mentioned under Health & Wellness \nProgram: Everyday Healthcare  \n20% of USGI coins upto Rs.200  \n2  Dental Care except cosmetic treatment  30% of USGI coins upto Rs.300  \n3  Cost of Vaccinations  30% of USGI coins upto Rs.300  \n4  Cost of Spectacle Lenses  30% of USGI coins upto Rs.300  \n5  Laser surgery for correction of refractory errors  30% of USGI coins upto Rs.300  \n6  Any Hospitalizations which is non-admissible as per \nthe Policy terms and conditions as specified under In-\npatient Hospitalization’  \n50% of USGI coins upto Rs.500  \n7  You can also redeem your Rewards against Claim of ",
+      "codes": [],
+      "annexure": false,
+      "parent": "C.15",
+      "part": "4/5"
+    },
+    {
+      "id": "C.15#5",
+      "section": "C",
+      "section_title": "Benefits/Coverages",
+      "title": "Wellness Services",
+      "citation": "Section C.15 (Wellness Services)",
+      "page": 13,
+      "text": "yours/your family member/s who are insured with Us \nunder retail Health Indemnity product  \n20% of USGI coins upto Rs.200  \n8  Discount on premium while renewing your Policy  30% of USGI coins upto Rs.300  \n \nThis cover is not applicable for Basic Plan.",
+      "codes": [],
+      "annexure": false,
+      "parent": "C.15",
+      "part": "5/5"
+    },
+    {
+      "id": "D.1",
+      "section": "D",
+      "section_title": "Add On Covers",
+      "title": "Pre-Existing Disease Waiting Period Waiver",
+      "citation": "Section D.1 (Pre-Existing Disease Waiting Period Waiver)",
+      "page": 17,
+      "text": "1. Pre-Existing Disease Waiting Period Waiver  \nNotwithstanding anything to the contrary in the Policy, it is hereby declared and agreed that, on payment \nof additional premium, waiting period applicable to all Pre -Existing Diseases for each Insured Person \nbefore benefits are payable under the Policy is modified to 12 Months.  \nFor the purpose of this extension, Waiting Period- Section G.1 shall be modified.  \nThis cover is not applicable for Basic Plan.",
+      "codes": [],
+      "annexure": false
+    },
+    {
+      "id": "D.2",
+      "section": "D",
+      "section_title": "Add On Covers",
+      "title": "Maternity Cover",
+      "citation": "Section D.2 (Maternity Cover)",
+      "page": 17,
+      "text": "2. Maternity Cover  \nWe will pay the Maternity Expenses incurred towards the delivery of a baby and/or treatment related \nto any complication of pregnancy or medically necessary termination. This is up to the Sum Insured \nopted by You and as mentioned in Your Policy Schedule aga inst this Section, during the Policy Period \nprovided that:  \na) Female Insured Person’s legally married spouse is also covered under this Policy, unless specifically \nwaived by Us (Example, if You are a single parent, this clause will not apply). This also has a waiting \nperiod. Waiting period as opted by you and mentioned in your Policy Schedule shall apply from \nthe date of inception of the first policy with us, provided that the po licy has been renewed \ncontinuously with us without break, with maternity as a benefit. \nb) The maternity benefit is limited to cover up to two living children. However, there is no restriction \non the number of medically necessary and lawful termination of pregnancies.  \nc) If on renewal without any break in coverage, the sum insured is increased, there is a fresh waiting \nperiod as opted by You and mentioned in Your Policy Schedule applied to the increased part of the \nSum Insured.  \nd) Any complications arising out of or as a consequence of maternity/childbirth / New Born Baby will \nalso be covered within the limit of Sum Insured, available under this benefit.  \ne) Exclusion F.i.15 stands deleted. \nf) This cover is not applicable for the Basic Plan.",
+      "codes": [],
+      "annexure": false
+    },
+    {
+      "id": "D.3",
+      "section": "D",
+      "section_title": "Add On Covers",
+      "title": "Diabetes Day 1 cover",
+      "citation": "Section D.3 (Diabetes Day 1 cover)",
+      "page": 17,
+      "text": "3. Diabetes Day 1 cover (Applicable only for Diamond plan)  \nWe will Pay you (Aged 18 years and above) for the Medical Expenses under Outpatient treatment for \nDiabetes up to the Sum Insured, mentioned in the Policy Schedule. This treatment can be availed at \nOur Network Providers and/  Empanelled Service Providers (such as Outpatient clinics or Physicians/  \nDiagnostic centre) for chronic condition i.e. Diabetes.  \n \nFor ease of understanding definitions of Diabetes as below:  \nDiabetes mellitus is a chronic, progressive disease in which impaired insulin production leads to high \nblood glucose (sugar) levels, and without good self -management and proper treatment, the increased \nglucose (sugar) in the blood affects and damages every  organ in the body, which causes serious health \nconsequences.  \n \nOutpatient Treatment for this coverage means;  \n \n(i) Medical Practitioner’s consultations;  \n(ii) Diagnostic test  \n(iii) Medicines",
+      "codes": [],
+      "annexure": false
+    },
+    {
+      "id": "D.4",
+      "section": "D",
+      "section_title": "Add On Covers",
+      "title": "Hypertension Day 1 Cover",
+      "citation": "Section D.4 (Hypertension Day 1 Cover)",
+      "page": 18,
+      "text": "4. Hypertension Day 1 Cover (Applicable only for Diamond plan)  \nWe will Pay you (Aged 18 years and above) for the Medical Expenses under Outpatient treatment  for \nHypertension up to the Sum Insured, mentioned in the Policy Schedule.  \nThis treatment can be availed at Our Network Providers and/  Empanelled Service Providers (such as \nOutpatient clinics or Physicians/ Diagnostic centre) for chronic condition i.e. Hypertension.  \n \nFor ease of understanding definitions of Hypertension as below:  \nHypertension is the term used to describe a persistent elevated blood pressure, commonly referred to \nas high blood pressure, and if this chronic disease is not treated appropriately, is a major risk factor for \nheart disease, stroke, kidney disease and even eye diseases.  \n \nOutpatient Treatment for this coverage means:  \n(i) Medical Practitioner’s consultations.  \n(ii) Diagnostic test  \n(iii) Medicines",
+      "codes": [],
+      "annexure": false
+    },
+    {
+      "id": "D.5",
+      "section": "D",
+      "section_title": "Add On Covers",
+      "title": "Non-Medical Items",
+      "citation": "Section D.5 (Non-Medical Items)",
+      "page": 18,
+      "text": "5. Non-Medical Items  \nWe will pay for Non -Medical Expenses up to the limit mentioned in Schedule of Coverage in the Policy \nSchedule on Medically necessary Hospitalization of Insured Person for claims admissible under section \nC.1 in view of this Cover as per List 1 of Annexure 2.  \n \nThis cover is not applicable for the Basic Plan.",
+      "codes": [],
+      "annexure": false
+    },
+    {
+      "id": "D.6",
+      "section": "D",
+      "section_title": "Add On Covers",
+      "title": "Hospital Cash Benefit",
+      "citation": "Section D.6 (Hospital Cash Benefit)",
+      "page": 18,
+      "text": "6. Hospital Cash Benefit (Applicable only for Basic Plan) \nWith an additional premium, a daily cash amount will be payable under the basic plan as an optional \nbenefit, with Option 1 offering a per day limit of Rs 500, and Option 2 offering a per day limit of Rs 1,000; \nfor maximum up to 10 days  under both options, if you receive treatment as an inpatient for an eligible \nmedical condition, provided that: \n• We have accepted a claim under Section C.1 (Inpatient Treatment Benefit). \n• You are hospitalized for more than 3 days.",
+      "codes": [],
+      "annexure": false
+    },
+    {
+      "id": "D.7",
+      "section": "D",
+      "section_title": "Add On Covers",
+      "title": "Room Rent Modification",
+      "citation": "Section D.7 (Room Rent Modification)",
+      "page": 18,
+      "text": "7. Room Rent Modification  \nNow withstanding anything to the contrary in the Policy, by choosing this Optional Benefit under Silver, \nGold and Diamond plan, we agree to modify the Room Rent / Room Category as per the following. \n \nBy opting below room category, the insured person shall be eligible for the daily hospital cash benefit of \nRs 500 per day maximum up to 5 days in addition to the expenses payable under C.1 Inpatient Treatment. \nThis amount shall be applicable on the cover level and shall be utilized only once in a policy year. \n \nSr. No. Room Category Eligibility \n1. Twin Sharing Room It means your maximum eligible Room Category in case of \nHospitalization payable by Us is limited for stay in a Twin Sharing \nRoom \n \nA co-payment of 20% shall be applied if the insured opts for room category above twin sharing room. \n \nThis cover is not applicable for the Basic Plan.",
+      "codes": [],
+      "annexure": false
+    },
+    {
+      "id": "D.8",
+      "section": "D",
+      "section_title": "Add On Covers",
+      "title": "Aggregate Deductible",
+      "citation": "Section D.8 (Aggregate Deductible)",
+      "page": 19,
+      "text": "8. Aggregate Deductible  \nWe give you an option to choose a deductible of Rs 25,000 or Rs 50,000 along with your Silver, Gold or \nDiamond Plan, which will help you reduce the amount of Premium . Deductible is the claim amount (as \nspecified) which is to be borne by You under this Policy. Deductible would apply on an aggregate basis \nin a Policy Year. We shall be liable only once the aggregate amount of all the claims exceeds the \nDeductible. \nThis cover is not applicable for the Basic Plan and once opted cannot be removed from the coverage.",
+      "codes": [],
+      "annexure": false
+    },
+    {
+      "id": "E.1",
+      "section": "E",
+      "section_title": "Renewal Benefit",
+      "title": "Cumulative Bonus",
+      "citation": "Section E.1 (Cumulative Bonus)",
+      "page": 19,
+      "text": "1. Cumulative Bonus  \nThe Insured will have an option to opt from: \na. Enhancement in Sum Insured: \nIn case no claim has been made by any insured person, we will increase the base sum insured as per the \nvariant opted, provided the Policy is renewed continuously:   \nSilver  Gold  Diamond  \n20% of Base Sum Insured,  \nMaximum to 100% per \nRenewal  \n50% of Base Sum Insured,  \nMaximum to 100% per Renewal  \n50% of Base Sum Insured,  \nMaximum to 200% per Renewal  \nIn case of claim is made in the expiring policy year then you will not earn any bonus on Policy renewal. \nHowever, if there is no claim made in the subsequent Policy Year, you will earn cumulative Bonus.  \n \nb. Discount in Premium: \nNo Claim Discount will be offered to an Insured Person at the renewal, in the event of no claim being \nmade in the policy year. This discount will be offered as per the defined grid mentioned below for every \nrenewal where there is no claim, this will be available for maximum up to 5 years. \n \nIf a claim is made in any particular year, the discount accrued shall be reduced at the same rate at which \nit has accrued. \nSilver  Gold  Diamond  \n 3% of the Base Premium  4% of the Base Premium  5% of the Base Premium \n \nThis cover is not applicable for the Basic Plan.",
+      "codes": [],
+      "annexure": false
+    },
+    {
+      "id": "E.2",
+      "section": "E",
+      "section_title": "Renewal Benefit",
+      "title": "Preventive Health Check- up",
+      "citation": "Section E.2 (Preventive Health Check- up)",
+      "page": 20,
+      "text": "2. Preventive Health Check- up   \nWe will reimburse the cost of a Preventive Health Check -up, up to the limits specified below as per \nplan of the Insured Person who was covered during the previous Policy Year. This Cover does NOT \ncarry forward if it is not claimed and shall not be provided  if the Policy is not Renewed further. the \nbelow mentioned limits are applicable for each Insured Person per Policy Year in case of Individual \nPolicy and cumulatively for all Insured Persons per Policy Year in case of Family Floater Policy.   \nThe same can be opted within 90 Days of the Renewal.  \n  \nSilver  Gold  Diamond  \nPreventive Health Check up \nevery claim free Year up to \nRs.1000  \nPreventive Health Check up every \nclaim free Year up to Rs.2500  \nPreventive Health Check up every \nYear up to Rs.5000  \n \nThis cover is not applicable for the Basic Plan.",
+      "codes": [],
+      "annexure": false
+    },
+    {
+      "id": "G.1",
+      "section": "G",
+      "section_title": "Waiting Period",
+      "title": "Pre-Existing Diseases",
+      "citation": "Section G.1 (Pre-Existing Diseases)",
+      "page": 23,
+      "text": "1. Pre-Existing Diseases (Code- Excl01)  \n1. Expenses related to the treatment of a pre-existing Disease (PED) and its direct complications shall \nbe excluded until the expiry of 36 months of continuous coverage after the date of inception of \nthe first policy with us.  \n2. In case of enhancement of sum insured the exclusion shall apply afresh to the extent of sum \ninsured increase.  \n3. If the Insured Person is continuously covered without any break as defined under the portability \nnorms of the extant IRDAI (Health Insurance) Regulations then waiting period for the same would \nbe reduced to the extent of prior coverage.  \n4. Coverage under the policy after the expiry of 36 months for any pre -existing disease is subject to \nthe same being declared at the time of application and accepted by us.",
+      "codes": [
+        "Excl01"
+      ],
+      "annexure": false
+    },
+    {
+      "id": "G.2#1",
+      "section": "G",
+      "section_title": "Waiting Period",
+      "title": "Specific Waiting Period",
+      "citation": "Section G.2 (Specific Waiting Period)",
+      "page": 23,
+      "text": "2. Specific Waiting Period: (Code- Excl02)  \na) Expenses related to the treatment of the following listed conditions, surgeries/  treatments shall \nbe excluded until the expiry of 24/ 36 months (For Basic, Silver, Gold and Diamond Plan)  of \ncontinuous coverage, as may be the case after the date of inception of the first policy with the \ninsurer. This exclusion shall not be applicable for claims arising due to an accident.  \nb) In case of enhancement of sum insured the exclusion shall apply afresh to the extent of sum \ninsured increase.  \nc) If any of the specified diseases/ procedures falls under the waiting period specified for pre-existing \ndiseases, then the longer of the two waiting periods shall apply.  \nd) The waiting period for listed conditions shall apply even if contracted after the policy or declared \nand accepted without a specific exclusion.  \ne) If the Insured Person is continuously covered without any break under the policy, then waiting \nperiod for the same would be reduced to the extent of prior coverage.  \n \ni. 24 Months waiting period  \n1. All internal and external benign tumours, cysts, polyps of any kind, including benign breast \nlumps  \n2. Benign ear, nose, throat disorders   \n3. Benign prostate hypertrophy   \n4. Cataract and age related eye ailments   \n5. Gastric/ Duodenal Ulcer   \n6. Gout and Rheumatism   \n7. Hernia of all types   \n \n8. Hydrocele   \n9. Non Infective Arthritis   \n10. Piles, Fissures and Fistula in anus   \n11. Pilonidal sinus, Sinusitis and related disorders   \n12. Prolapse inter Vertebral Disc and Spinal Diseases unless arising from accident   \n13. Skin Disorders   \n14. Stone in Gall Bladder and Bile duct, excluding malignancy   \n15. Stones in Urinary system  ",
+      "codes": [
+        "Excl02"
+      ],
+      "annexure": false,
+      "parent": "G.2",
+      "part": "1/2"
+    },
+    {
+      "id": "G.2#2",
+      "section": "G",
+      "section_title": "Waiting Period",
+      "title": "Specific Waiting Period",
+      "citation": "Section G.2 (Specific Waiting Period)",
+      "page": 23,
+      "text": "16. Treatment for Menorrhagia/Fibromyoma, Myoma and Prolapsed uterus   \n17. Varicose Veins and Varicose Ulcers   \n18. Renal Failure   \n19. Puberty and Menopause related Disorders   \n20. Behavioural and Neurodevelopment Disorders:  \na. Disorders of adult personality   \nb. Disorders of speech and language including stammering, dyslexia   \n  \nii. 36 Months waiting period  \n1. Joint Replacement due to Degenerative Condition   \n2. Age-related Osteoarthritis & Osteoporosis  \n3. Treatment of HIV illness, stress or psychological disorders and neurodegenerative disorders.   \n4. Age Related Macular Degeneration (ARMD)  \n5. Genetic diseases or disorders",
+      "codes": [
+        "Excl02"
+      ],
+      "annexure": false,
+      "parent": "G.2",
+      "part": "2/2"
+    },
+    {
+      "id": "G.3",
+      "section": "G",
+      "section_title": "Waiting Period",
+      "title": "First Thirty Days Waiting Period",
+      "citation": "Section G.3 (First Thirty Days Waiting Period)",
+      "page": 24,
+      "text": "3. First Thirty Days Waiting Period (Code- Excl03)  \ni. Expenses related to the treatment of any illness within 30 days from the first policy  \ncommencement date shall be excluded except claims arising due to an accident, provided the \nsame are covered.  \nii. This exclusion shall not, however, apply if the Insured Person has Continuous Coverage for more \nthan twelve months.  \niii. The within referred waiting period is made applicable to the enhanced sum insured in the event \nof granting higher sum insured subsequently.",
+      "codes": [
+        "Excl03"
+      ],
+      "annexure": false
+    },
+    {
+      "id": "G.4",
+      "section": "G",
+      "section_title": "Waiting Period",
+      "title": "Maternity Expenses",
+      "citation": "Section G.4 (Maternity Expenses)",
+      "page": 24,
+      "text": "4. Maternity Expenses (Code-Excl18) [Thirty-six months waiting period]  \nThe following are included under the scope of cover up to the limit specified in Policy Schedule subject \nto a waiting period of thirty-six months: \ni. Medical treatment expenses traceable to childbirth (including complicated deliveries and  \ncaesarean sections incurred during hospitalization) except ectopic pregnancy.  \nii. Expenses towards miscarriage and the related lawful medical termination of pregnancy during \nthe policy period.",
+      "codes": [
+        "Excl18"
+      ],
+      "annexure": false
+    },
+    {
+      "id": "G.5",
+      "section": "G",
+      "section_title": "Waiting Period",
+      "title": "Out-patient Treatment Waiting Period",
+      "citation": "Section G.5 (Out-patient Treatment Waiting Period)",
+      "page": 25,
+      "text": "5. Out-patient Treatment Waiting Period of 3 years  \nThe expenses covered under benefit Out -Patient treatment shall be excluded for a period of 3 years \nunless You were insured continuously and without interruption for at least 3 years under any other \nIndian insurer’s or Our individual health insurance Policy for reimbursement of medical costs incurred \nby You as an Out-patient in a Hospital or Out-patient Treatment Centre.",
+      "codes": [],
+      "annexure": false
+    },
+    {
+      "id": "F.i.1",
+      "section": "F",
+      "section_title": "Exclusions",
+      "title": "Investigation & Evaluation",
+      "citation": "Section F.i.1 (Investigation & Evaluation)",
+      "page": 20,
+      "text": "1. Investigation & Evaluation (Code- Excl04) \na. Expenses related to any admission primarily for diagnostics and evaluation purposes.  \nb. Any diagnostic expenses which are not related or not incidental to the current diagnosis and \ntreatment",
+      "codes": [
+        "Excl04"
+      ],
+      "annexure": false
+    },
+    {
+      "id": "F.i.2",
+      "section": "F",
+      "section_title": "Exclusions",
+      "title": "Rest Cure, Rehabilitation",
+      "citation": "Section F.i.2 (Rest Cure, Rehabilitation)",
+      "page": 20,
+      "text": "2. Rest Cure, Rehabilitation and Respite Care (Code- Excl05) \nExpenses related to any admission primarily for enforced bed rest and not for receiving treatment. This \nalso includes:  \ni. Custodial care either at home or in a nursing facility for personal care such as help with \nactivities of daily living such as bathing, dressing, moving around either by skilled nurses or \nassistant or non-skilled persons.  \n \nii. Any services for people who are terminally ill to address physical, social, emotional and  \nspiritual needs.",
+      "codes": [
+        "Excl05"
+      ],
+      "annexure": false
+    },
+    {
+      "id": "F.i.3",
+      "section": "F",
+      "section_title": "Exclusions",
+      "title": "Obesity/ Weight Control",
+      "citation": "Section F.i.3 (Obesity/ Weight Control)",
+      "page": 21,
+      "text": "3. Obesity/ Weight Control (Code- Excl06) \nExpenses related to the surgical treatment of obesity that does not fulfil all the below conditions:  \n1) Surgery to be conducted is upon the advice of the Doctor  \n2) The surgery/Procedure conducted should be supported by clinical protocols  \n3) The member has to be 18 years of age or older and  \n4) Body Mass Index (BMl);  \na) greater than or equal to 40 or  \nb) greater than or equal to 35 in conjunction with any of the following severe comorbidities \nfollowing failure of less invasive methods of weight loss:  \ni. Obesity-related cardiomyopathy  \nii. Coronary heart disease  \niii. Severe Sleep Apnea  \niv. Uncontrolled Type2 Diabetes",
+      "codes": [
+        "Excl06"
+      ],
+      "annexure": false
+    },
+    {
+      "id": "F.i.4",
+      "section": "F",
+      "section_title": "Exclusions",
+      "title": "Change-of-Gender Treatments",
+      "citation": "Section F.i.4 (Change-of-Gender Treatments)",
+      "page": 21,
+      "text": "4. Change-of-Gender Treatments: (Code- Excl07)  \nExpenses related to any treatment, including surgical management, to change characteristics of the body \nto those of the opposite sex.",
+      "codes": [
+        "Excl07"
+      ],
+      "annexure": false
+    },
+    {
+      "id": "F.i.5",
+      "section": "F",
+      "section_title": "Exclusions",
+      "title": "Cosmetic or plastic Surgery",
+      "citation": "Section F.i.5 (Cosmetic or plastic Surgery)",
+      "page": 21,
+      "text": "5. Cosmetic or plastic Surgery: (Code- Excl08)  \nExpenses for cosmetic or plastic surgery or any treatment to change appearance unless for \nreconstruction following an Accident, Burn(s) or Cancer or as part of medically necessary treatment to \nremove a direct and immediate health risk to the insured. For this to be considered a medical necessity, \nit must be certified by the attending Medical Practitioner.",
+      "codes": [
+        "Excl08"
+      ],
+      "annexure": false
+    },
+    {
+      "id": "F.i.6",
+      "section": "F",
+      "section_title": "Exclusions",
+      "title": "Hazardous or Adventure sports",
+      "citation": "Section F.i.6 (Hazardous or Adventure sports)",
+      "page": 21,
+      "text": "6. Hazardous or Adventure sports: (Code- Excl09)  \nExpenses related to any treatment necessitated due to participation as a professional in hazardous or \nadventure sports, including but not limited to, para -jumping, rock climbing, mountaineering, rafting, \nmotor racing, horse racing or scuba diving, hand gliding, sky diving, deep-sea diving.",
+      "codes": [
+        "Excl09"
+      ],
+      "annexure": false
+    },
+    {
+      "id": "F.i.7",
+      "section": "F",
+      "section_title": "Exclusions",
+      "title": "Breach of law",
+      "citation": "Section F.i.7 (Breach of law)",
+      "page": 21,
+      "text": "7. Breach of law: (Code- Excl10)  \nExpenses for treatment directly arising from or consequent upon any Insured Person committing or \nattempting to commit a breach of law with criminal intent.",
+      "codes": [
+        "Excl10"
+      ],
+      "annexure": false
+    },
+    {
+      "id": "F.i.8",
+      "section": "F",
+      "section_title": "Exclusions",
+      "title": "Excluded Providers",
+      "citation": "Section F.i.8 (Excluded Providers)",
+      "page": 21,
+      "text": "8. Excluded Providers: (Code-Excl11)  \nExpenses incurred towards treatment in any hospital or by any Medical Practitioner or any other \nprovider specifically excluded by the Insurer and disclosed in its website / notified to the policyholders \nare not admissible. However, in case of life threatening situations or following an accident, expenses up \nto the stage of stabilization are payable but not the complete claim.",
+      "codes": [
+        "Excl11"
+      ],
+      "annexure": false
+    },
+    {
+      "id": "F.i.9",
+      "section": "F",
+      "section_title": "Exclusions",
+      "title": "Treatment for, Alcoholism",
+      "citation": "Section F.i.9 (Treatment for, Alcoholism)",
+      "page": 21,
+      "text": "9. Treatment for, Alcoholism, drug or substance abuse or any addictive condition and consequences \nthereof (Code- Excl12)",
+      "codes": [
+        "Excl12"
+      ],
+      "annexure": false
+    },
+    {
+      "id": "F.i.10",
+      "section": "F",
+      "section_title": "Exclusions",
+      "title": "Treatments received in heath hydros",
+      "citation": "Section F.i.10 (Treatments received in heath hydros)",
+      "page": 21,
+      "text": "10. Treatments received in heath hydros, nature cure clinics, spas or similar establishments or private \nbeds registered as a nursing home attached to such establishments or where admission is \narranged wholly or partly for domestic reasons. (Code- Excl13)",
+      "codes": [
+        "Excl13"
+      ],
+      "annexure": false
+    },
+    {
+      "id": "F.i.11",
+      "section": "F",
+      "section_title": "Exclusions",
+      "title": "Dietary supplements",
+      "citation": "Section F.i.11 (Dietary supplements)",
+      "page": 21,
+      "text": "11. Dietary supplements and substances that can be purchased without prescription, including but \nnot limited to Vitamins, minerals and organic substances unless prescribed by a medical \npractitioner as part of hospitalization claim or day care procedure (Code- Excl14)",
+      "codes": [
+        "Excl14"
+      ],
+      "annexure": false
+    },
+    {
+      "id": "F.i.12",
+      "section": "F",
+      "section_title": "Exclusions",
+      "title": "Refractive Error",
+      "citation": "Section F.i.12 (Refractive Error)",
+      "page": 22,
+      "text": "12. Refractive Error:(Code- Excl15)  \nExpenses related to the treatment for correction of eyesight due to refractive error less than 7.5 \ndioptres.",
+      "codes": [
+        "Excl15"
+      ],
+      "annexure": false
+    },
+    {
+      "id": "F.i.13",
+      "section": "F",
+      "section_title": "Exclusions",
+      "title": "Unproven Treatments",
+      "citation": "Section F.i.13 (Unproven Treatments)",
+      "page": 22,
+      "text": "13. Unproven Treatments:(Code- Excl16)  \nExpenses related to any unproven treatment, services and supplies for or in connection with any \ntreatment. Unproven treatments are treatments, procedures or supplies that lack significant medical \ndocumentation to support their effectiveness.",
+      "codes": [
+        "Excl16"
+      ],
+      "annexure": false
+    },
+    {
+      "id": "F.i.14",
+      "section": "F",
+      "section_title": "Exclusions",
+      "title": "Sterility and Infertility",
+      "citation": "Section F.i.14 (Sterility and Infertility)",
+      "page": 22,
+      "text": "14. Sterility and Infertility: (Code- Excl17)   \nExpenses related to sterility and infertility. This includes:  \n(i) Any type of contraception, sterilization  \n(ii) Assisted Reproduction services including artificial insemination and advanced reproductive \ntechnologies such as IVF, ZIFT, GIFT, ICSI  \n(iii) Gestational Surrogacy  \n(iv) Reversal of sterilization",
+      "codes": [
+        "Excl17"
+      ],
+      "annexure": false
+    },
+    {
+      "id": "F.i.15",
+      "section": "F",
+      "section_title": "Exclusions",
+      "title": "Maternity",
+      "citation": "Section F.i.15 (Maternity)",
+      "page": 22,
+      "text": "15. Maternity: (Code Excl18) \ni. Medical treatment expenses traceable to childbirth (including complicated deliveries and \ncaesarean sections incurred during hospitalization) except ectopic pregnancy; \nii. Expenses towards miscarriage (unless due to an accident) and lawful medical termination of \npregnancy during the policy period.",
+      "codes": [
+        "Excl18"
+      ],
+      "annexure": false
+    },
+    {
+      "id": "F.ii.1",
+      "section": "F",
+      "section_title": "Exclusions",
+      "title": "War",
+      "citation": "Section F.ii.1 (War)",
+      "page": 22,
+      "text": "1. War (whether declared or not) and war like occurrence or invasion, acts of foreign enemies, \nhostilities, civil war, rebellion, revolutions, insurrections, mutiny, military or usurped power, \nseizure, capture, arrest, restraints, and detainment of all kinds.",
+      "codes": [],
+      "annexure": false
+    },
+    {
+      "id": "F.ii.2",
+      "section": "F",
+      "section_title": "Exclusions",
+      "title": "Nuclear, chemical",
+      "citation": "Section F.ii.2 (Nuclear, chemical)",
+      "page": 22,
+      "text": "2. Nuclear, chemical, or biological attack or weapons, contributed to, caused by, resulting from or \nfrom any other cause or event contributing concurrently or in any other sequence to the loss, claim \nor expense. For the purpose of this exclusion:  \na) Nuclear attack or weapons means the use of any nuclear weapon or device or waste or \ncombustion of nuclear fuel or the emission, discharge, dispersal, release or escape of fissile/ \nfusion material emitting a level of radioactivity capable of causing any Illness, incapacitating \ndisablement or death.  \nb) Chemical attack or weapons means the emission, discharge, dispersal, release or escape of \nany solid, liquid or gaseous chemical compound which, when suitably distributed, is capable \nof causing any Illness, incapacitating disablement or death.  \nc) Biological attack or weapons means the emission, discharge, dispersal, release or escape of \nany pathogenic (disease producing) micro -organisms and/or’ biologically produced toxins \n(including genetically modified organisms and chemically synthesized toxins)  which are \ncapable of causing any Illness, incapacitating disablement or death.",
+      "codes": [],
+      "annexure": false
+    },
+    {
+      "id": "F.ii.3",
+      "section": "F",
+      "section_title": "Exclusions",
+      "title": "Any expenses incurred on OPD",
+      "citation": "Section F.ii.3 (Any expenses incurred on OPD)",
+      "page": 22,
+      "text": "3. Any expenses incurred on OPD treatment (Applicable for Basic, Silver & Gold Plan)",
+      "codes": [],
+      "annexure": false
+    },
+    {
+      "id": "F.ii.4",
+      "section": "F",
+      "section_title": "Exclusions",
+      "title": "Treatment taken outside",
+      "citation": "Section F.ii.4 (Treatment taken outside)",
+      "page": 22,
+      "text": "4. Treatment taken outside the geographical limits of India.",
+      "codes": [],
+      "annexure": false
+    },
+    {
+      "id": "F.ii.5",
+      "section": "F",
+      "section_title": "Exclusions",
+      "title": "In respect of the existing diseases",
+      "citation": "Section F.ii.5 (In respect of the existing diseases)",
+      "page": 23,
+      "text": "5. In respect of the existing diseases, disclosed by the insured and mentioned in the policy schedule \n(based on insured’s consent), policyholder is not entitled to get the coverage for specified ICD \ncodes.",
+      "codes": [],
+      "annexure": false
+    },
+    {
+      "id": "H.1.1",
+      "section": "H",
+      "section_title": "General Terms & Clauses",
+      "title": "Disclosure of Information",
+      "citation": "Section H.1.1 (Disclosure of Information)",
+      "page": 25,
+      "text": "1. Disclosure of Information  \nThe Policy shall be void and all premium paid thereon shall be forfeited to the Company in the event of \nmisrepresentation, misdescription or non-disclosure of any material fact.",
+      "codes": [],
+      "annexure": false
+    },
+    {
+      "id": "H.1.2",
+      "section": "H",
+      "section_title": "General Terms & Clauses",
+      "title": "Condition Precedent",
+      "citation": "Section H.1.2 (Condition Precedent)",
+      "page": 25,
+      "text": "2. Condition Precedent to Admission of Liability  \nThe due observance and fulfilment of the terms and conditions of the policy, by the insured person, shall \nbe a condition precedent to any liability of the Company to make any payment for claim(s) arising under \nthe policy.",
+      "codes": [],
+      "annexure": false
+    },
+    {
+      "id": "H.1.3",
+      "section": "H",
+      "section_title": "General Terms & Clauses",
+      "title": "Claim Settlement",
+      "citation": "Section H.1.3 (Claim Settlement)",
+      "page": 25,
+      "text": "3. Claim Settlement (provision for Penal Interest)  \ni). The Company shall settle or reject a claim, as the case may be, within 15 days from the date of \nsubmission of the claim. \nii). In the case of delay in the payment of a claim, the Company shall be liable to pay interest from \nthe date of receipt date of receipt of intimation to till the date of payment. \niii). However, where the circumstances of a claim warrant an investigation in the opinion of the \nCompany, it shall initiate and complete such investigation at the earliest in any case not later \nthan 15 days from the date of submission of claim.  \niv). In case of delay beyond stipulated 15 days the company shall be liable to pay interest at a rate \n2% above the bank rate from the date of receipt of intimation to till the date of payment.",
+      "codes": [],
+      "annexure": false
+    },
+    {
+      "id": "H.1.4",
+      "section": "H",
+      "section_title": "General Terms & Clauses",
+      "title": "Complete Discharge",
+      "citation": "Section H.1.4 (Complete Discharge)",
+      "page": 25,
+      "text": "4. Complete Discharge  \nAny payment to the policyholder, insured person or his/ her nominees or his/ her legal representative \nor assignee or to the Hospital, as the case may be, for any benefit under the policy shall be a valid \ndischarge towards payment of claim by the Company to  the extent of that amount for the particular \nclaim.",
+      "codes": [],
+      "annexure": false
+    },
+    {
+      "id": "H.1.5",
+      "section": "H",
+      "section_title": "General Terms & Clauses",
+      "title": "Multiple Policies",
+      "citation": "Section H.1.5 (Multiple Policies)",
+      "page": 25,
+      "text": "5. Multiple Policies  \nIn case of multiple policies taken by an insured person during a period from one or more insurers to \nindemnify treatment costs, the insured person shall have the right to require a settlement of his/  her \nclaim in terms of any of his/ her policies. In all such cases the insurer chosen by the insured person shall \nbe obliged to settle the claim as long as the claim is within the limits of and according to the terms of the \nchosen policy.  \n \ni. Insured person having multiple policies shall also have the right to prefer claims under this policy \nfor the amounts disallowed under any other policy/ policies even if the sum insured is not \nexhausted. Then the insurer shall independently settle the claim  subject to the terms and \nconditions of this policy.  \nii. If the amount to be claimed exceeds the sum insured under a single policy, the insured person \nshall have the right to choose insurer from whom he/ she wants to claim the balance amount. \niii. Where an insured person has policies from more than one insurer to cover the same risk on \nindemnity basis, the insured person shall only be indemnified the treatment costs in accordance \nwith the terms and conditions of the chosen policy.",
+      "codes": [],
+      "annexure": false
+    },
+    {
+      "id": "H.1.6",
+      "section": "H",
+      "section_title": "General Terms & Clauses",
+      "title": "Fraud",
+      "citation": "Section H.1.6 (Fraud)",
+      "page": 26,
+      "text": "6. Fraud  \nIf any claim made by the insured person, is in any respect fraudulent, or if any false statement, or \ndeclaration is made or used in support thereof, or if any fraudulent means or devices are used by the \ninsured person or anyone acting on his/  her behalf to obtain any benefit under this policy, all benefits \nunder this policy and the premium paid shall be forfeited.  \nAny amount already paid against claims made under this policy but which are found fraudulent later \nshall be repaid by all recipient(s)/  policyholder(s), who has made that particular claim, who shall be \njointly and severally liable for such repayment to the insurer.  \nFor the purpose of this clause, the expression \"fraud\" means any of the following acts committed by the \ninsured person or by his agent or the hospital/  doctor/ any other party acting on behalf of the insured \nperson, with intent to deceive the insurer or to induce the insurer to issue an insurance policy:  \na) The suggestion, as a fact of that which is not true and which the insured person does not believe to \nbe true.  \nb) The active concealment of a fact by the insured person having knowledge or belief of the fact;  \nc) Any other act fitted to deceive; and  \nd) any such act or omission as the law specially declares to be fraudulent  \nThe Company shall not repudiate the claim and / or forfeit the policy benefits on the ground of Fraud, if \nthe insured person/ beneficiary can prove that the misstatement was true to the best of his knowledge \nand there was no deliberate intention to suppress the fact or that such misstatement of or suppression \nof material fact are within the knowledge of the insurer.",
+      "codes": [],
+      "annexure": false
+    },
+    {
+      "id": "H.1.7",
+      "section": "H",
+      "section_title": "General Terms & Clauses",
+      "title": "Cancellation",
+      "citation": "Section H.1.7 (Cancellation)",
+      "page": 26,
+      "text": "7. Cancellation  \nThe policyholder may cancel his/her policy at any time during the term, by giving 7 days notice in writing. \nThe Insurer shall \na. refund proportionate premium for unexpired policy period, if the term of policy upto one year and \nthere is no claim (s) made during the policy period. \nb. refund premium for the unexpired policy period, in respect of policies with term more than 1 year and \nrisk coverage for such policy years has not commenced.",
+      "codes": [],
+      "annexure": false
+    },
+    {
+      "id": "H.1.8",
+      "section": "H",
+      "section_title": "General Terms & Clauses",
+      "title": "Migration",
+      "citation": "Section H.1.8 (Migration)",
+      "page": 26,
+      "text": "8. Migration  \n \nIn case of migration of one policy to another with the same Insurer, the policyholder (including all \nmembers under family cover and group insurance policies) can transfer the credits gained to the extent \nof the Sum Insured, No Claim Bonus, Specific Waiting periods, waiting period for pre -existing diseases, \nMoratorium period etc. in the previous policy to the migrated policy. We will underwrite the proposal in \ncase of migration, if the insured is not continuously covered for 36 months.",
+      "codes": [],
+      "annexure": false
+    },
+    {
+      "id": "H.1.9",
+      "section": "H",
+      "section_title": "General Terms & Clauses",
+      "title": "Portability",
+      "citation": "Section H.1.9 (Portability)",
+      "page": 27,
+      "text": "9. Portability  \nThe insured person will have the option to port the policy to other insurers as per IRDAI  guidelines \nrelated to portability at least 30 days before, but not earlier than 60 days from the policy renewal date \nas per IRDAI guidelines related to portability . lf such person is presently covered and has been \ncontinuously covered without any lapses under any health insurance policy with an lndian  General/ \nHealth insurer, the proposed insured person will get the accrued continuity benefits in waiting periods \nas per IRDAI guidelines on portability.",
+      "codes": [],
+      "annexure": false
+    },
+    {
+      "id": "H.1.10",
+      "section": "H",
+      "section_title": "General Terms & Clauses",
+      "title": "Renewal of Policy",
+      "citation": "Section H.1.10 (Renewal of Policy)",
+      "page": 27,
+      "text": "10. Renewal of Policy  \ni.  A health insurance policy is renewable provided the product is not withdrawn, except in case of \nestablished fraud or non -disclosure or misrepresentation by the Insured. If the product is \nwithdrawn, the policyholder shall be provided with suitable options to migrate to another \nproduct.  \nii. An Insurer shall not deny the renewal on the ground that the policyholder had made a claim (s) \nin the preceding policy years.  \niii. An Insurer shall not resort to fresh underwriting unless there is an increase in sum insured. In \ncase increase in sum insured is requested by the policyholder, the Insurer may underwrite only \nto the extent of increased sum insured.",
+      "codes": [],
+      "annexure": false
+    },
+    {
+      "id": "H.1.11",
+      "section": "H",
+      "section_title": "General Terms & Clauses",
+      "title": "Withdrawal of Policy",
+      "citation": "Section H.1.11 (Withdrawal of Policy)",
+      "page": 27,
+      "text": "11. Withdrawal of Policy  \ni. In the likelihood of this product being withdrawn in future, the Company will intimate the insured \nperson about the same 90 days prior to expiry of the policy.  \nii. Insured Person will have the option to migrate to similar health insurance product available with \nthe Company at the time of renewal with all the accrued continuity benefits such as cumulative \nbonus, waiver of waiting period. as per IRDAI guidelines, provided the policy has been maintained \nwithout a break.",
+      "codes": [],
+      "annexure": false
+    },
+    {
+      "id": "H.1.12",
+      "section": "H",
+      "section_title": "General Terms & Clauses",
+      "title": "Moratorium Period",
+      "citation": "Section H.1.12 (Moratorium Period)",
+      "page": 27,
+      "text": "12. Moratorium Period  \nAfter completion of sixty continuous months of coverage (including portability and migration) in health \ninsurance policy, no policy and claim shall be contestable by the insurer on grounds of non -disclosure, \nmisrepresentation, except on grounds of establis hed fraud. This period of sixty continuous months is \ncalled as moratorium period. The moratorium would be applicable for the sums insured of the first \npolicy. Wherever, the sum insured is enhanced, completion of sixty continuous months would be \napplicable from the date of enhancement of sums insured only on the enhanced limits. The accrued \ncredits gained under the ported and migrated policies shall be counted for the purpose of calculating \nthe Moratorium period.",
+      "codes": [],
+      "annexure": false
+    },
+    {
+      "id": "H.1.13",
+      "section": "H",
+      "section_title": "General Terms & Clauses",
+      "title": "Premium Payment in Installments",
+      "citation": "Section H.1.13 (Premium Payment in Installments)",
+      "page": 28,
+      "text": "13. Premium Payment in Installments   \nIf the insured person has opted for Payment of Premium on an instalment basis i.e monthly, Quarterly, \nHalf Yearly as mentioned in the policy Schedule/Certificate of Insurance, the following Conditions shall \napply (notwithstanding any terms to the contrary elsewhere in the policy).  \ni. The grace period of fifteen days (where premium is paid on a monthly instalment) and thirty days \n(where premium is paid in quarterly/half -yearly/annual instalments) is available on the premium \ndue date, to pay the premium \nii. If the policy is renewed during grace period, all the credits (sum insured, No Claim Bonus, Specific \nWaiting periods, waiting periods for pre-existing diseases, Moratorium period etc.) accrued under \nthe policy shall be protected. The same is applicable for both Indemnity and Benefit products. \niii. If the premium is paid in installments during the policy period, coverage will be available during \nsuch Grace period.  \niv. The insured person will get the accrued continuity benefit in respect of the “Waiting Periods”, \n“Specific Waiting Periods” in the event of payment of premium within the stipulated grace Period.  \nv. No interest will be charged If the instalment premium is not paid on due date.  \nvi. In case of instalment premium due not received within the grace period, the policy will get \ncancelled.  \nvii. In the event of a claim, all subsequent premium instalments shall immediately become due and \npayable.  \nviii. The company has the right to recover and deduct all the pending instalments from the claim \namount due under the policy.",
+      "codes": [],
+      "annexure": false
+    },
+    {
+      "id": "H.1.14",
+      "section": "H",
+      "section_title": "General Terms & Clauses",
+      "title": "Possibility of Revision",
+      "citation": "Section H.1.14 (Possibility of Revision)",
+      "page": 28,
+      "text": "14. Possibility of Revision of Terms of the Policy Including the Premium Rates  \nThe Company, with prior approval of IRDAI, may revise or modify the terms of the policy including the \npremium rates. The insured person shall be notified three months before the changes are effected.",
+      "codes": [],
+      "annexure": false
+    },
+    {
+      "id": "H.1.15",
+      "section": "H",
+      "section_title": "General Terms & Clauses",
+      "title": "Free look period",
+      "citation": "Section H.1.15 (Free look period)",
+      "page": 28,
+      "text": "15. Free look period  \nThe Free Look Period shall be applicable on new individual health insurance policies and not on renewals \nor at the time of porting/migrating the policy. The insured person shall be allowed free look period of \nthirty days from date of receipt of the policy document to review the terms and conditions of the policy, \nand to return the same if not acceptable. If the insured has not made any claim during the Free Look \nPeriod, the insured shall be entitled to   \ni. a refund of the premium paid less any expenses incurred by the Company on medical examination \nof the insured person and the stamp duty charges or \nii. where the risk has already commenced and the option of return of the policy is exercised by the \ninsured person, a deduction towards the proportionate risk premium for period of cover or   \niii. Where only a part of the insurance coverage has commenced, such proportionate premium \ncommensurate with the insurance coverage during such period",
+      "codes": [],
+      "annexure": false
+    },
+    {
+      "id": "H.1.16",
+      "section": "H",
+      "section_title": "General Terms & Clauses",
+      "title": "Nomination",
+      "citation": "Section H.1.16 (Nomination)",
+      "page": 28,
+      "text": "16. Nomination:  \n \nThe policyholder is required at the inception of the policy to make a nomination for the purpose of \npayment of claims under the policy in the event of death of the policyholder. Any change of nomination \nshall be communicated to the company in writing and s uch change shall be effective only when an \nendorsement on the policy is made. In the event of death of the policyholder, the Company will pay the \nnominee {as named in the Policy Schedule/ Policy Certificate/ Endorsement (if any)} and in case there is \nno subsisting nominee, to the legal heirs or legal representatives of the policyholder whose discharge \nshall be treated as full and final discharge of its liability under the policy.",
+      "codes": [],
+      "annexure": false
+    },
+    {
+      "id": "H.1.17",
+      "section": "H",
+      "section_title": "General Terms & Clauses",
+      "title": "Loading",
+      "citation": "Section H.1.17 (Loading)",
+      "page": 29,
+      "text": "17. Loading:  \ni. We may apply a risk loading on the premium payable (based upon the declarations made in the \nproposal form and the health status of the persons proposed for insurance). \nii. The loading shall only be applied basis an outcome of Our medical underwriting.  \niii. These loadings are applied from Commencement Date of the Policy including subsequent \nrenewal(s) with Us or on the receipt of the request of increase in Sum Insured (for the increased \nSum Insured). We will inform You about the applicable risk loading through communication.",
+      "codes": [],
+      "annexure": false
+    },
+    {
+      "id": "H.1.18",
+      "section": "H",
+      "section_title": "General Terms & Clauses",
+      "title": "Redressal of Grievance",
+      "citation": "Section H.1.18 (Redressal of Grievance)",
+      "page": 29,
+      "text": "18. Redressal of Grievance   \n \nResolving Issue \nWrite to : \nCustomer Service Universal Sompo General \nInsurance Co.Ltd. \nUnit No. 601 & 602, 6th Floor, Reliable Tech Park, \nThane-Belapur Road, Airoli, Navi Mumbai, \nMaharashtra – 400708 \nEmail: grievance@universalsompo.com \n \nFor More details, visit – www.universalsompo.com \nVisit Branch Grievance Redressal Officer (GRO)  - Walk into any of our nearest branches and \nrequest to meet the GRO. \nGrievance Redressal Officer \nIn case, the customer is not satisfied with the decision/resolution of the above office or have \nnot received any response, he/she may write or email/mail to: \nCustomer Service \nUniversal Sompo General Insurance Co.Ltd. \nUnit No. 601 & 602, 6th Floor, Reliable Tech Park, \nThane-Belapur Road, Airoli, Navi Mumbai, \nMaharashtra – 400708 \nEmail ID: GRO@universalsompo.com  \n \nInsurance Ombudsman \nBima Bharosa Portal link : https://bimabharosa.irdai.gov.in/ \n \nThe customer can approach the Insurance Ombudsman depending on the nature of \ngrievance and financial implication, if any. \n \nThe updated contact details of the Insurance Ombudsman offices can be referred by clicking \non the Insurance ombudsman official site: https://www.cioins.co.in/Ombudsman. \nInformation about Insurance Ombudsmen, their jurisdiction and powers is available on the \nwebsite of the Insurance Regulatory and Development Authority of India (IRDAI) at \nwww.irdai.gov.in, or of the General Insurance Council at https://www.gicouncil.in/, the \nConsumer Education Website of the IRDAI at http://www.policyholder.gov.in, or from any of \nOffices of the Company.",
+      "codes": [],
+      "annexure": false
+    },
+    {
+      "id": "H.2.1",
+      "section": "H",
+      "section_title": "General Terms & Clauses",
+      "title": "Enhancement of Sum Insured",
+      "citation": "Section H.2.1 (Enhancement of Sum Insured)",
+      "page": 30,
+      "text": "1. Enhancement of Sum Insured  \nYou may seek enhancement of Sum Insured in writing before payment of premium for renewal, which \nmay be granted at Our discretion. Before granting such request for enhancement of Sum Insured, We \nhave the right to have You examined by a Medical Practitioner authorized by Us or the TPA. Our consent \nfor enhancement of Sum Insured is dependent on the recommendation of the Medical Practitioner and \nsubject to limits as stated by the Company.  \nEnhancement of Sum Insured will not be considered for: In respect of any enhancement of Sum Insured, \nwaiting periods – G 1, 2 and 3 would apply to the additional Sum Insured from such date.",
+      "codes": [],
+      "annexure": false
+    },
+    {
+      "id": "I.1",
+      "section": "I",
+      "section_title": "Claim Procedure",
+      "title": "I.1",
+      "citation": "Section I.1",
+      "page": 30,
+      "text": "I.1 Procedure for Cashless claims: \n \nFollow below steps to avail Cashless facility through our In house Health Claims Management: \n \nStep I: Locate nearest Hospital by visiting our website or web portal or call our Health Helpline 1800 200 \n4030. \nStep II: Visit Network hospital and show your Health Serve Card issued by the company along with Valid \nPhoto ID proof and get 'Cashless Request Form' from Insurance helpdesk of the hospital. \nStep III: Fill your details in the 'Cashless Request Form' & submit it to the Hospital Insurance helpdesk. \nStep IV: Hospital verifies the patient details and sends duly filled Cashless Request Form to Universal \nSompo \nStep V: Universal Sompo Health team will review and judge the admissibility of the Cashless Request as \nper Policy Terms &  Conditions and the same will be communicated to Insured and Hospital within 60 \nmins for Initial Cashless request & 3 h ours for discharge request on their registered mobile number & \nEmail ID respectively. \n \n \nYou can now avail cashless facility from non-network hospitals.  \nTo avail the treatment under cashless from non-network hospitals, please find the below steps.  \nPrior Intimation is required for processing cashless from non-network hospitals:  \n➢ Inform us (Toll Free Helpline – 1800 200 4030) minimum 48 hours before admission for planned \nhospitalization and within 24 hours of admission for emergency hospitalization across India.  \n➢ Mail us at contactus@universalsompo.com",
+      "codes": [],
+      "annexure": false
+    },
+    {
+      "id": "I.2",
+      "section": "I",
+      "section_title": "Claim Procedure",
+      "title": "I.2",
+      "citation": "Section I.2",
+      "page": 31,
+      "text": "I.2 Procedure for reimbursement of claims: \n \nFollow below steps to avail reimbursement facility through our In house Health Claims Management: \n \nStep I: Visit our Web Portal to register claim or Call our Health Helpline 1800 200 4030 or email us at \ncontactus@universalsompo.com and inform about your claim. \nStep II : Visit hospital and undergo your treatment. Settle your hospitalization bill and collect all the \ndocuments after discharge from the hospital. \nStep III: Fill in Reimbursement Claim Form and submit all original documents to our below mention \noffice for reimbursement. \nUniversal Sompo General Insurance Company Limited, \nHealth Claims Management Office,  \n1st FloorC-56- A/13,  \nBlock- C Sector- 62, \nNoida, Uttar Pradesh, Pincode: 201309 \n \nStep IV: On receipt of document your claim will processed as per Terms & Conditions of policy and the \nsame will be communicated over SMS & Email. \nStep V: Outcome of the claim will be communicated within 15 days from date of Submission of claim.",
+      "codes": [],
+      "annexure": false
+    },
+    {
+      "id": "I.3#1",
+      "section": "I",
+      "section_title": "Claim Procedure",
+      "title": "I.3",
+      "citation": "Section I.3",
+      "page": 31,
+      "text": "I.3 Documents to be submitted: \nThe reimbursement claim is to be supported with the following documents and submitted within the \nprescribed time limit. \nI. Claim form duly filled and signed by the Insured \nII. Certificate from attending medical practitioner mentioning the first symptoms and date of \noccurrence of ailment. \nIII. All treatment papers of current ailment including previous treatment papers if any. \nIV. Original Discharge Card from the hospital, Indoor Case Papers. \nV. All original medical Investigation reports (viz. X-ray, ECG, Blood test etc). \nVI. Original hospital bill and receipts. \nVII. Original bills of chemist, medical practitioner, medical investigation, etc. supported by the \ndoctor’s prescription. \nVIII. NEFT details and Personalized cancelled cheque/ Passbook copy in the name of proposer for \nelectronic fund transfer. \nIX. Valid Photo ID Proof of the patient. \n \nX. For accident Cases: MLC (Medico Legal Certificate)/ FIR (First Information report). \nXI. Copy of latest valid address proof of proposer like electricity bill, water bill or telephone bill or \nupdated bank statement along with copy of PAN card & Aadhaar Card as per AML/KYC Norms. \nThe above list of documents is indicative. In case of any further document requirement, our team shall \ncontact you on receipt of your claim documents by us. \n \nNote: \n1. Documentation consistent with Telemedicine Practice Guidelines [2020] circulated by the Medical \nCouncil of India shall also be allowed under this policy along with the ones involving standard, in -\nperson consultation with a medical practitioner. \n2.  The company shall only accept bills/  invoices/ medical treatment related documents only in the \nInsured Person’s name for whom the claim is submitted ",
+      "codes": [],
+      "annexure": false,
+      "parent": "I.3",
+      "part": "1/2"
+    },
+    {
+      "id": "I.3#2",
+      "section": "I",
+      "section_title": "Claim Procedure",
+      "title": "I.3",
+      "citation": "Section I.3",
+      "page": 31,
+      "text": "3. In the event of a claim lodged under the Policy and the original documents having been submitted \nto any other insurer, the Company shall accept the copy of the documents and claim settlement \nadvice, duly certified by the other insurer subject to satisfaction of the Company \n4. Any delay in notification or submission may be condoned on merit where delay is proved to be for \nreasons beyond the control of the Insured Person",
+      "codes": [],
+      "annexure": false,
+      "parent": "I.3",
+      "part": "2/2"
+    },
+    {
+      "id": "Annex2.I#1",
+      "section": "Annexure 2",
+      "section_title": "Annexure 2",
+      "title": "List I- Items for which coverage is not available in the policy ",
+      "citation": "Annexure 2, List I",
+      "page": 51,
+      "text": "List I- Items for which coverage is not available in the policy \nSI No  Item  \n1  BABY FOOD  \n2  BABY UTILITIES CHARGES  \n3  BEAUTY SERVICES  \n4  BELTS/ BRACES  \n5  BUDS  \n6  COLD PACK/HOT PACK  \n7  CARRY BAGS  \n8  EMAIL / INTERNET CHARGES  \n9  FOOD CHARGES (OTHER THAN PATIENT’s DIET PROVIDED BY HOSPITAL)  \n10  LEGGINGS  \n11  LAUNDRY CHARGES  \n12  MINERAL WATER  \n13  SANITARY PAD  \n14  TELEPHONE CHARGES  \n15  GUEST SERVICES  \n16  CREPE BANDAGE  \n17  DIAPER OF ANY TYPE  \n18  EYELET COLLAR  \n19  SLINGS  \n20  BLOOD GROUPING AND CROSS MATCHING OF DONORS SAMPLES  \n21  SERVICE CHARGES WHERE NURSING CHARGE ALSO CHARGED  \n22  Television Charges  \n23  SURCHARGES  \n24  ATTENDANT CHARGES  \n25  EXTRA DIET OF PATIENT (OTHER THAN THAT WHICH FORMS PART OF BED CHARGE)  \n26  BIRTH CERTIFICATE  \n27  CERTIFICATE CHARGES  \n28  COURIER CHARGES  \n \n \n29  CONVEYANCE CHARGES  \n30  MEDICAL CERTIFICATE  \n31  MEDICAL RECORDS  \n32  PHOTOCOPIES CHARGES  \n33  MORTUARY CHARGES  \n34  WALKING AIDS CHARGES  \n35  OXYGEN CYLINDER (FOR USAGE OUTSIDE THE HOSPITAL)  \n36  SPACER  \n37  SPIROMETRE  \n38  NEBULIZER KIT  \n39  STEAM INHALER  \n40  ARMSLING  \n41  THERMOMETER  \n42  CERVICAL COLLAR  \n43  SPLINT  \n44  DIABETIC FOOT WEAR  \n45  KNEE BRACES (LONG/ SHORT/ HINGED)  \n46  KNEE IMMOBILIZER/SHOULDER IMMOBILIZER  \n47  LUMBO SACRAL BELT  \n48  NIMBUS BED OR WATER OR AIR BED CHARGES  \n49  AMBULANCE COLLAR  \n50  AMBULANCE EQUIPMENT  \n51  ABDOMINAL BINDER  \n52  PRIVATE NURSES CHARGES- SPECIAL NURSING CHARGES  \n53  SUGAR FREE Tablets  \n54  CREAMS POWDERS LOTIONS (Toiletries are not payable, only prescribed medical pharmaceuticals \npayable)  \n55  ECG ELECTRODES  \n56  GLOVES  \n57  NEBULISATION KIT  \n58  ANY KIT WITH NO DETAILS MENTIONED [DELIVERY KIT, ORTHOKIT, RECOVERY KIT, ETC]  \n59  KIDNEY TRAY  \n \n60  MASK  ",
+      "codes": [],
+      "annexure": true,
+      "parent": "Annex2.I",
+      "part": "1/2"
+    },
+    {
+      "id": "Annex2.I#2",
+      "section": "Annexure 2",
+      "section_title": "Annexure 2",
+      "title": "List I- Items for which coverage is not available in the policy ",
+      "citation": "Annexure 2, List I",
+      "page": 51,
+      "text": "61  OUNCE GLASS  \n62  OXYGEN MASK  \n63  PELVIC TRACTION BELT  \n64  PAN CAN  \n65  TROLLY COVER  \n66  UROMETER, URINE JUG  \n67  AMBULANCE  \n68  VASOFIX SAFETY",
+      "codes": [],
+      "annexure": true,
+      "parent": "Annex2.I",
+      "part": "2/2"
+    },
+    {
+      "id": "Annex2.II",
+      "section": "Annexure 2",
+      "section_title": "Annexure 2",
+      "title": "List II — Items that are to be subsumed into Room Charges  ",
+      "citation": "Annexure 2, List II",
+      "page": 53,
+      "text": "List II — Items that are to be subsumed into Room Charges  \nSI No  Item  \n1  BABY CHARGES (UNLESS SPECIFIED/INDICATED)  \n2  HAND WASH  \n3  SHOE COVER  \n4  CAPS  \n5  CRADLE CHARGES  \n6  COMB  \n7  EAU-DE-COLOGNE / ROOM FRESHNERS  \n8  FOOT COVER  \n9  GOWN  \n10  SLIPPERS  \n11  TISSUE PAPER  \n12  TOOTH PASTE  \n13  TOOTH BRUSH  \n14  BED PAN  \n15  FACE MASK  \n16  FLEXI MASK  \n17  HAND HOLDER  \n18  SPUTUM CUP  \n19  DISINFECTANT LOTIONS  \n20  LUXURY TAX  \n \n21  HVAC  \n22  HOUSE KEEPING CHARGES  \n23  AIR CONDITIONER CHARGES  \n24  IM IV INJECTION CHARGES  \n25  CLEAN SHEET  \n26  BLANKET/WARMER BLANKET  \n27  ADMISSION KIT  \n28  DIABETIC CHART CHARGES  \n29  DOCUMENTATION CHARGES / ADMINISTRATIVE EXPENSES  \n30  DISCHARGE PROCEDURE CHARGES  \n31  DAILY CHART CHARGES  \n32  ENTRANCE PASS / VISITORS PASS CHARGES  \n33  EXPENSES RELATED TO PRESCRIPTION ON DISCHARGE  \n34  FILE OPENING CHARGES  \n35  INCIDENTAL EXPENSES / MISC. CHARGES (NOT EXPLAINED)  \n36  PATIENT IDENTIFICATION BAND / NAME TAG  \n37  PULSEOXYMETER CHARGES",
+      "codes": [],
+      "annexure": true
+    },
+    {
+      "id": "Annex2.III",
+      "section": "Annexure 2",
+      "section_title": "Annexure 2",
+      "title": "List III — Items that are to be subsumed into Procedure Charges  ",
+      "citation": "Annexure 2, List III",
+      "page": 54,
+      "text": "List III — Items that are to be subsumed into Procedure Charges  \nSI No.  Item  \n1  HAIR REMOVAL CREAM  \n2  DISPOSABLES RAZORS CHARGES (for site preparations)  \n3  EYE PAD  \n4  EYE SHEILD  \n5  CAMERA COVER  \n6  DVD, CD CHARGES  \n7  GAUSE SOFT  \n8  GAUZE  \n9  WARD AND THEATRE BOOKING CHARGES  \n10  ARTHROSCOPY AND ENDOSCOPY INSTRUMENTS  \n11  MICROSCOPE COVER  \n \n12  SURGICAL BLADES, HARMONIC SCALPEL, SHAVER  \n13  SURGICAL DRILL  \n14  EYE KIT  \n15  EYE DRAPE  \n16  X-RAY FILM  \n17  BOYLES APPARATUS CHARGES  \n18  COTTON  \n19  COTTON BANDAGE  \n20  SURGICAL TAPE  \n21  APRON  \n22  TORNIQUET  \n23  ORTHOBUNDLE, GYNAEC BUNDLE",
+      "codes": [],
+      "annexure": true
+    },
+    {
+      "id": "Annex2.IV",
+      "section": "Annexure 2",
+      "section_title": "Annexure 2",
+      "title": "List IV — Items that are to be subsumed into costs of treatment  ",
+      "citation": "Annexure 2, List IV",
+      "page": 55,
+      "text": "List IV — Items that are to be subsumed into costs of treatment  \nSI No.  Item  \n1  ADMISSION/REGISTRATION CHARGES  \n2  HOSPITALIZATION FOR EVALUATION/ DIAGNOSTIC PURPOSE  \n3  URINE CONTAINER  \n4  BLOOD RESERVATION CHARGES AND ANTE NATAL BOOKING CHARGES  \n5  BIPAP MACHINE  \n6  CPAP/ CAPD EQUIPMENTS  \n7  INFUSION PUMP— COST  \n8  HYDROGEN PEROXIDE\\SPIRIT\\ DISINFECTANTS ETC  \n9  NUTRITION PLANNING CHARGES – DIETICIAN CHARGES- DIET CHARGES  \n10  HIV KIT  \n11  ANTISEPTIC MOUTHWASH  \n12  LOZENGES  \n13  MOUTH PAINT  \n14  VACCINATION CHARGES  \n15  ALCOHOL SWABES  \n16  SCRUB SOLUTION/STERILLIUM  \n17  Glucometer & Strips  \n \n18  URINE BAG  \n  \n  \nRegistered & Corp Office: Universal Sompo General Insurance Company Ltd. 8th Floor & 9th Floor \n(South Side), Commerz International Business Park, Oberoi Garden City, Off Western Express Highway, \nGoregaon East, Mumbai 400063, Toll free no: 1800-22-4030/1800-200-4030, IRDAI Reg no: 134, CIN# \nU66010MH2007PLC166770 E-mail: contactus@universalsompo.com, website link \nwww.universalsompo.com",
+      "codes": [],
+      "annexure": true
+    }
+  ]
+}
