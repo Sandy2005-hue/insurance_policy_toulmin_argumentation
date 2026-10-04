@@ -9,7 +9,7 @@ __pycache__/
 *.pyo
 *.pyd
 
-# Vector Database (Do not push the local DB to GitHub)
+# Vector Database 
 chroma_db/
 
 # OS generated files
