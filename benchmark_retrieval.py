@@ -1,12 +1,35 @@
 import json
 import os
+import time
 import warnings
+from dotenv import load_dotenv
 from langchain_core.documents import Document
 from langchain_community.vectorstores import Chroma
 from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_community.retrievers import BM25Retriever
+from langchain_google_genai import ChatGoogleGenerativeAI
+from langchain_core.prompts import ChatPromptTemplate
+from langchain_core.output_parsers import StrOutputParser
 
+load_dotenv()
 warnings.filterwarnings("ignore")
+
+llm = ChatGoogleGenerativeAI(model="gemini-3.6-flash-latest", temperature=0.0)
+
+rewriter_prompt = ChatPromptTemplate.from_messages([
+    ("system", """You are a health insurance retrieval query expansion engine.
+Convert the colloquial user question into formal Indian health insurance contract terms, clause titles, synonyms, and numerical conversions.
+Rules:
+- If years are mentioned, include months (e.g., 5 years -> 60 continuous months moratorium period).
+- If overseas/countries are mentioned, include "outside geographical limits of India" or "global cover".
+- If no admission is mentioned, include "Out-Patient OPD treatment".
+- If falling sick early is mentioned, include "first thirty days waiting period".
+- If pre-existing disease is mentioned, include "Pre-existing Diseases PED waiting period".
+- Output ONLY 4-8 dense search keywords separated by spaces. No explanations."""),
+    ("user", "{question}")
+])
+
+query_rewriter = rewriter_prompt | llm | StrOutputParser()
 
 def evaluate_retrieval(k=4):
     current_dir = os.path.dirname(os.path.abspath(__file__))
@@ -14,14 +37,14 @@ def evaluate_retrieval(k=4):
     chunks_file = os.path.join(current_dir, "data", "policy_chunks.json")
     db_path = os.path.join(current_dir, "chroma_db")
 
-    print(f"📊 Running Pure Python HYBRID (BM25 + Dense) Benchmark @ Top-K = {k}...")
+    print(f"📊 Running ADVANCED RAG (Query Rewriting + Hybrid Search) @ Top-K = {k}...")
 
-    # 1. Dense Semantic Retriever
+    # 1. Dense Semantic Retriever (MiniLM)
     embeddings = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
     vector_store = Chroma(persist_directory=db_path, embedding_function=embeddings)
     chroma_retriever = vector_store.as_retriever(search_kwargs={"k": k})
 
-    # 2. Sparse Keyword Retriever (BM25)
+
     with open(chunks_file, 'r', encoding='utf-8') as f:
         data = json.load(f)
     
@@ -43,22 +66,29 @@ def evaluate_retrieval(k=4):
     precision_scores = []
     recall_scores = []
 
-    print("\n" + "="*70)
-    print(f"{'Query ID':<10} | {'Status':<6} | {'First Hit Rank':<15} | {'Gold IDs'}")
-    print("="*70)
+    print("\n" + "="*75)
+    print(f"{'Query ID':<8} | {'Status':<6} | {'Rank':<5} | {'Expanded Keywords'}")
+    print("="*75)
 
     for i, item in enumerate(benchmarks):
         query = item['q']
         gold_ids = set(item['gold'])
 
-        # Retrieve from both engines independently
-        sparse_hits = bm25_retriever.invoke(query)
-        dense_hits = chroma_retriever.invoke(query)
 
-        # FUSION LOGIC: Interleave results (Rank 1 sparse, Rank 1 dense, etc.)
+        try:
+            expansion = query_rewriter.invoke({"question": query})
+            expanded_query = f"{query} {expansion}"
+        except Exception:
+            expanded_query = query
+            expansion = "N/A"
+
+  
+        sparse_hits = bm25_retriever.invoke(expanded_query)
+        dense_hits = chroma_retriever.invoke(expanded_query)
+
+  
         merged_docs = []
         seen_ids = set()
-        
         for pair in zip(sparse_hits, dense_hits):
             for doc in pair:
                 doc_id = doc.metadata.get('id', '').split('#')[0]
@@ -90,7 +120,11 @@ def evaluate_retrieval(k=4):
         precision_scores.append(p_at_k)
         recall_scores.append(r_at_k)
 
-        print(f"Q{i+1:<8} | {status:<6} | {str(hit_rank):<15} | {list(gold_ids)}")
+  
+        exp_preview = (expansion[:40] + '..') if len(expansion) > 40 else expansion
+        print(f"Q{i+1:<7} | {status:<6} | {str(hit_rank):<5} | {exp_preview}")
+        
+        time.sleep(5) 
 
     hit_rate = (hits / total_queries) * 100
     mrr = sum(reciprocal_ranks) / total_queries
@@ -98,7 +132,7 @@ def evaluate_retrieval(k=4):
     avg_recall = (sum(recall_scores) / total_queries) * 100
 
     print("\n" + "="*50)
-    print("🎯 OFFICIAL FIELD 6: HYBRID RETRIEVAL METRICS")
+    print("🎯 OFFICIAL FIELD 6: ADVANCED RAG PERFORMANCE METRICS")
     print("="*50)
     print(f"Total Benchmark Queries: {total_queries}")
     print(f"Hit Rate @ K={k}:         {hit_rate:.2f}%")
