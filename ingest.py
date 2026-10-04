@@ -1,52 +1,56 @@
 import os
+import json
 import warnings
-from langchain_community.document_loaders import PyPDFLoader
-from langchain_text_splitters import RecursiveCharacterTextSplitter
+import shutil
+from langchain_core.documents import Document
 from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_community.vectorstores import Chroma
-
 
 warnings.filterwarnings("ignore", category=DeprecationWarning)
 
 def build_vector_db():
-
     current_dir = os.path.dirname(os.path.abspath(__file__))
-    pdf_path = os.path.join(current_dir, "data", "A_PLUS_HEALTH_INSURANCE.pdf")
+    json_path = os.path.join(current_dir, "data", "policy_chunks.json")
     db_path = os.path.join(current_dir, "chroma_db")
 
-    print(f"1. Looking for Insurance PDF at: {pdf_path}")
+    print(f"1. Loading structured chunks with Context Enrichment...")
+    with open(json_path, 'r', encoding='utf-8') as f:
+        data = json.load(f)
     
+    documents = []
+    for chunk in data['chunks']:
 
-    if not os.path.exists(pdf_path):
-        print(f"❌ FATAL ERROR: Cannot find the PDF.")
-        print(f"Fix this: Make sure the file exists exactly at {pdf_path}")
-        return
+        enriched_content = (
+            f"Section {chunk.get('section', '')}: {chunk.get('section_title', '')}\n"
+            f"Clause: {chunk.get('title', '')}\n"
+            f"Content: {chunk['text']}"
+        )
 
+        doc = Document(
+            page_content=enriched_content,
+            metadata={
+                "id": str(chunk['id']),
+                "citation": str(chunk.get('citation', '')),
+                "section": str(chunk.get('section', '')),
+                "page": int(chunk.get('page', 0))
+            }
+        )
+        documents.append(doc)
+    
+    print(f"✅ Enriched {len(documents)} structured chunks.")
 
-    loader = PyPDFLoader(pdf_path)
-    documents = loader.load()
-    print("✅ PDF Loaded Successfully.")
-
-    print("2. Chunking Document...")
-
-    text_splitter = RecursiveCharacterTextSplitter(
-        chunk_size=1000,
-        chunk_overlap=200,
-        separators=["\n\n", "\n", ".", " ", ""]
-    )
-    chunks = text_splitter.split_documents(documents)
-    print(f"✅ Created {len(chunks)} chunks.")
-
-    print("3. Generating Embeddings & Building Vector DB... (This might take a minute)")
+    print("2. Generating Embeddings with BAAI/bge-small-en-v1.5 (Upgraded SOTA IR Model)...")
     embeddings = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
     
-
+    if os.path.exists(db_path):
+        shutil.rmtree(db_path)
+        
     Chroma.from_documents(
-        documents=chunks, 
+        documents=documents, 
         embedding=embeddings, 
         persist_directory=db_path
     )
-    print(f"✅ Vector DB successfully built at {db_path}")
+    print(f"✅ High-Precision Vector DB built at: {db_path}")
 
 if __name__ == "__main__":
     build_vector_db()
