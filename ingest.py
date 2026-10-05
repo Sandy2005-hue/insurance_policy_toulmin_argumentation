@@ -39,7 +39,7 @@ def build_vector_db():
     
     print(f"✅ Enriched {len(documents)} structured chunks.")
 
-    print("2. Generating Embeddings with BAAI/bge-small-en-v1.5 (Upgraded SOTA IR Model)...")
+    print("2. Generating Embeddings with sentence-transformers/all-MiniLM-L6-v2...")
     embeddings = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
     
     if os.path.exists(db_path):
