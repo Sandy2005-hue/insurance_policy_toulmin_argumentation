@@ -8,7 +8,7 @@ from shared_retriever import get_hybrid_retriever
 load_dotenv()
 
 hybrid_search = get_hybrid_retriever(k=4)
-llm = ChatGoogleGenerativeAI(model="gemini-3.6-flash", temperature=0.1)
+llm = ChatGoogleGenerativeAI(model="gemini-3.7-flash", temperature=0.1)
 
 
 def quote_in_context(quote, docs):
