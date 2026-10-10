@@ -1,0 +1,90 @@
+{
+  "rows": [
+    {
+      "id": "GC-001",
+      "expected": "Claim Denied",
+      "predicted": "Needs Human Review",
+      "guardrail": "Verified"
+    },
+    {
+      "id": "GC-002",
+      "expected": "Claim Approved",
+      "predicted": "Claim Denied",
+      "guardrail": "Verified"
+    },
+    {
+      "id": "GC-003",
+      "expected": "Claim Denied",
+      "predicted": "Claim Denied",
+      "guardrail": "Verified"
+    },
+    {
+      "id": "GC-004",
+      "expected": "Claim Approved",
+      "predicted": "Claim Approved",
+      "guardrail": "Verified"
+    },
+    {
+      "id": "GC-005",
+      "expected": "Claim Denied",
+      "predicted": "Claim Denied",
+      "guardrail": "Unverified (citation not found in retrieved text)"
+    },
+    {
+      "id": "GC-006",
+      "expected": "Claim Approved",
+      "predicted": "Claim Approved",
+      "guardrail": "Verified"
+    },
+    {
+      "id": "GC-007",
+      "expected": "Claim Denied",
+      "predicted": "Needs Human Review",
+      "guardrail": "Verified"
+    },
+    {
+      "id": "GC-008",
+      "expected": "Claim Denied",
+      "predicted": "Claim Denied",
+      "guardrail": "Verified"
+    },
+    {
+      "id": "GC-009",
+      "expected": "Claim Approved",
+      "predicted": "Claim Approved",
+      "guardrail": "Verified"
+    },
+    {
+      "id": "GC-010",
+      "expected": "Claim Denied",
+      "predicted": "Claim Denied",
+      "guardrail": "Verified"
+    }
+  ],
+  "errors": [
+    [
+      "GC-011",
+      "Error calling model 'gemini-3.8-flash' (RESOURCE_EXHAUSTED): 429 RESOURCE_EXHAUS"
+    ],
+    [
+      "GC-012",
+      "Error calling model 'gemini-3.8-flash' (RESOURCE_EXHAUSTED): 429 RESOURCE_EXHAUS"
+    ],
+    [
+      "GC-013",
+      "Error calling model 'gemini-3.8-flash' (RESOURCE_EXHAUSTED): 429 RESOURCE_EXHAUS"
+    ],
+    [
+      "GC-014",
+      "Error calling model 'gemini-3.8-flash' (RESOURCE_EXHAUSTED): 429 RESOURCE_EXHAUS"
+    ],
+    [
+      "GC-015",
+      "Error calling model 'gemini-3.8-flash' (RESOURCE_EXHAUSTED): 429 RESOURCE_EXHAUS"
+    ],
+    [
+      "GC-016",
+      "Error calling model 'gemini-3.8-flash' (RESOURCE_EXHAUSTED): 429 RESOURCE_EXHAUS"
+    ]
+  ]
+}
