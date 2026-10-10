@@ -1,0 +1,105 @@
+{
+  "flags": [
+    "--no-fallback"
+  ],
+  "rows": [
+    {
+      "id": "GC-001",
+      "expected": "Claim Denied",
+      "predicted": "Claim Denied",
+      "citation_check": "Verified",
+      "gold_clause_retrieved": true,
+      "model": "gemini-3.6-flash",
+      "rewriter_model": "gemini-3.6-flash",
+      "retrieved_ids": [
+        "D.1",
+        "E.2",
+        "G.1",
+        "G.2#1",
+        "G.3"
+      ],
+      "gold_clause_ids": [
+        "G.2"
+      ]
+    },
+    {
+      "id": "GC-002",
+      "expected": "Claim Approved",
+      "predicted": "Needs Human Review",
+      "citation_check": "Verified",
+      "gold_clause_retrieved": true,
+      "model": "gemini-3.6-flash",
+      "rewriter_model": "gemini-3.6-flash",
+      "retrieved_ids": [
+        "D.1",
+        "C.10",
+        "G.1",
+        "E.2",
+        "G.2#1",
+        "G.3"
+      ],
+      "gold_clause_ids": [
+        "C.4",
+        "G.2"
+      ]
+    },
+    {
+      "id": "GC-003",
+      "expected": "Claim Denied",
+      "predicted": "Claim Denied",
+      "citation_check": "Verified",
+      "gold_clause_retrieved": true,
+      "model": "gemini-3.6-flash",
+      "rewriter_model": "gemini-3.6-flash",
+      "retrieved_ids": [
+        "G.1",
+        "D.1",
+        "B.47",
+        "D.3",
+        "G.2#1"
+      ],
+      "gold_clause_ids": [
+        "G.1"
+      ]
+    },
+    {
+      "id": "GC-004",
+      "expected": "Claim Approved",
+      "predicted": "Claim Approved",
+      "citation_check": "Verified",
+      "gold_clause_retrieved": true,
+      "model": "gemini-3.6-flash",
+      "rewriter_model": "gemini-3.6-flash",
+      "retrieved_ids": [
+        "D.1",
+        "G.1",
+        "B.47",
+        "G.2#1"
+      ],
+      "gold_clause_ids": [
+        "D.1",
+        "G.1"
+      ]
+    },
+    {
+      "id": "GC-005",
+      "expected": "Claim Denied",
+      "predicted": "Claim Denied",
+      "citation_check": "Verified",
+      "gold_clause_retrieved": true,
+      "model": "gemini-3.6-flash",
+      "rewriter_model": "gemini-3.6-flash",
+      "retrieved_ids": [
+        "G.1",
+        "C.12",
+        "G.3",
+        "D.1",
+        "B.64",
+        "G.2#1"
+      ],
+      "gold_clause_ids": [
+        "G.3"
+      ]
+    }
+  ]
+}
