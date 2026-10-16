@@ -11,10 +11,13 @@ In health insurance, a rejection has to be explainable and tied to the policy te
 ## How it works
 
 ```
-Claim text
+User message
    |
    v
-(optional) Query rewriting: expand into formal policy keywords (Gemini)
+Router (app only): claim | policy question | off-topic (refused politely, no retrieval)
+   |
+   v
+(claims) (optional) Query rewriting: expand into formal policy keywords (Gemini)
    |
    v
 Hybrid retrieval, run twice: coverage-oriented and exclusion/waiting-period-oriented
@@ -152,6 +155,7 @@ USE_REWRITER=0 python benchmark_e2e.py
 - **Small test set.** Results come with wide uncertainty.
 - **No partial approvals.** Co-payments, deductibles and sub-limits are not calculated.
 - **Citation check scope.** It verifies quotes, not the verdict's correctness.
+- **Input routing is an LLM call and can misclassify.** It is used in the app only, not in the benchmarks, and is not a security boundary.
 - **Language models are not deterministic.** Even at temperature 0, outputs can vary between runs and API versions.
 
 ## Data and ethics
