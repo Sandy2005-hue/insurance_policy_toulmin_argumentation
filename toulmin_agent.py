@@ -1,4 +1,5 @@
 import os
+import time
 from dotenv import load_dotenv
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_core.prompts import ChatPromptTemplate
@@ -11,6 +12,7 @@ load_dotenv()
 # Settings (all can be overridden in .env)
 #   MODEL_CHAIN     comma-separated model names, tried in order on rate limits
 #   MODEL_FALLBACK  "0" = use only the first model (recommended for benchmarks)
+#   MODEL_COOLDOWN  seconds a rate-limited model is skipped before it is tried again (default 300)
 #   USE_REWRITER    "0" = skip LLM query expansion
 # --------------------------------------------------------------------------
 MODEL_CHAIN = [
@@ -19,6 +21,8 @@ MODEL_CHAIN = [
     if m.strip()
 ]
 USE_FALLBACK = os.getenv("MODEL_FALLBACK", "1") == "1"
+COOLDOWN_SECONDS = int(os.getenv("MODEL_COOLDOWN", "300"))
+_cooldown_until = {}   # model name -> time when it may be tried again
 USE_REWRITER = os.getenv("USE_REWRITER", "1") == "1"
 
 hybrid_search = get_hybrid_retriever(k=4)
@@ -39,22 +43,33 @@ def is_rate_limit(e):
 
 
 def invoke_with_fallback(build_chain, inputs):
-    """Run a chain with the first model; on a rate-limit error try the next one.
+    """Run a chain, moving to the next model when one is rate-limited.
 
-    Only rate-limit / overload errors trigger a switch. Any other error
-    (bad model name, invalid key, parsing problem) is raised so it stays visible.
+    A rate-limited model is skipped for COOLDOWN_SECONDS, so later calls stay on the model that
+    works instead of failing on the first one every time. When the cooldown ends, the
+    first (preferred) model is tried again, so the chain loops back to the start by itself.
+    Only rate-limit / overload errors trigger a switch; any other error is raised.
     Returns (result, name_of_model_that_answered).
     """
-    models = MODEL_CHAIN if USE_FALLBACK else MODEL_CHAIN[:1]
+    if USE_FALLBACK:
+        now = time.time()
+        order = [m for m in MODEL_CHAIN if _cooldown_until.get(m, 0) <= now]
+        if not order:   # everything is cooling down: try the one that recovers soonest first
+            order = sorted(MODEL_CHAIN, key=lambda m: _cooldown_until.get(m, 0))
+    else:
+        order = MODEL_CHAIN[:1]
+
     last_error = None
-    for name in models:
+    for pos, name in enumerate(order):
         try:
             return build_chain(get_llm(name)).invoke(inputs), name
         except Exception as e:
             last_error = e
-            if is_rate_limit(e) and name != models[-1]:
-                print(f"   [{name} rate-limited, switching to the next model]")
-                continue
+            if USE_FALLBACK and is_rate_limit(e):
+                _cooldown_until[name] = time.time() + COOLDOWN_SECONDS
+                if pos < len(order) - 1:
+                    print(f"   [{name} rate-limited: paused for {COOLDOWN_SECONDS}s, switching to {order[pos + 1]}]")
+                    continue
             raise
     raise last_error
 
