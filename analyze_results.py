@@ -55,6 +55,10 @@ def main():
                          ("some gold clause missing", [r for r in rows if not r["strict"]])):
         print(f"  accuracy when {label}: {pct(sum(r['ok'] for r in group), len(group))}")
 
+    freq = Counter(c for r in rows for c in base(r["retrieved_ids"]))
+    print("\nClauses retrieved most often across ALL claims (a clause that shows up for most claims is a 'hub')")
+    print("  " + ", ".join(f"{c} ({n}/{len(rows)})" for c, n in freq.most_common(8)))
+
     missing = Counter(c for r in rows for c in r["missing"])
     if missing:
         print("\nGold clauses most often NOT retrieved:", ", ".join(f"{c} ({n})" for c, n in missing.most_common()))
