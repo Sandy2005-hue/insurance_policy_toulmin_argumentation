@@ -1,119 +1,83 @@
+"""Retrieval benchmark: dense vs BM25 vs hybrid on the RAW questions.
+
+Uses the same retriever code as the app (shared_retriever.py), so there is no duplicated logic.
+Hand-written query expansions, if the file exists, are shown on ONE clearly labelled
+upper-bound row. They are not a real system.
+
+Usage:  python benchmark_retrieval.py
+"""
 import json
 import os
 import warnings
-from langchain_core.documents import Document
-from langchain_community.vectorstores import Chroma
-from langchain_huggingface import HuggingFaceEmbeddings
-from langchain_community.retrievers import BM25Retriever
+
+from shared_retriever import get_retrievers
 
 warnings.filterwarnings("ignore")
+K = 4
 
-def evaluate_retrieval(k=4):
-    current_dir = os.path.dirname(os.path.abspath(__file__))
-    questions_file = os.path.join(current_dir, "data", "retrieval_questions.json")
-    chunks_file = os.path.join(current_dir, "data", "policy_chunks.json")
-    cache_file = os.path.join(current_dir, "data", "query_expansions.json")
-    db_path = os.path.join(current_dir, "chroma_db")
 
-    print(f"📊 Running Production ADVANCED RAG (Cached Query Expansion + Hybrid) @ Top-K = {k}...")
+def base_ids(docs):
+    return list(dict.fromkeys(
+        d.metadata.get("id", "").split("#")[0] for d in docs if d.metadata.get("id")))
 
-    # Load Expansions Cache
-    with open(cache_file, 'r', encoding='utf-8') as f:
-        expansions = json.load(f)
 
-    # 1. Dense Semantic Retriever (MiniLM)
-    embeddings = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
-    vector_store = Chroma(persist_directory=db_path, embedding_function=embeddings)
-    chroma_retriever = vector_store.as_retriever(search_kwargs={"k": k})
+def evaluate(search, questions, expansions=None):
+    rows, hits, rr_sum, recall_sum = [], 0, 0.0, 0.0
+    for item in questions:
+        q, gold = item["q"], set(item["gold"])
+        query = f"{q} {expansions.get(q, '')}".strip() if expansions else q
+        ids = base_ids(search(query))[:K]
+        rank = next((r for r, i in enumerate(ids, 1) if i in gold), None)
+        hits += rank is not None
+        rr_sum += 1.0 / rank if rank else 0.0
+        recall_sum += len(gold & set(ids)) / len(gold)
+        rows.append({"q": q, "gold": sorted(gold), "retrieved": ids, "hit_rank": rank})
+    n = len(questions)
+    return {"hit": hits, "n": n, "mrr": rr_sum / n, "recall": recall_sum / n, "rows": rows}
 
-    # 2. Sparse Keyword Retriever (BM25)
-    with open(chunks_file, 'r', encoding='utf-8') as f:
-        data = json.load(f)
-    
-    bm25_docs = [
-        Document(
-            page_content=f"{c.get('section_title', '')} {c.get('title', '')} {c['text']}", 
-            metadata={"id": str(c['id'])}
-        ) for c in data['chunks']
-    ]
-    bm25_retriever = BM25Retriever.from_documents(bm25_docs)
-    bm25_retriever.k = k
 
-    with open(questions_file, 'r', encoding='utf-8') as f:
-        benchmarks = json.load(f)
+def main():
+    here = os.path.dirname(os.path.abspath(__file__))
+    with open(os.path.join(here, "data", "retrieval_questions.json"), encoding="utf-8") as f:
+        questions = json.load(f)
+    expansions = None
+    exp_path = os.path.join(here, "data", "query_expansions.json")
+    if os.path.exists(exp_path):
+        with open(exp_path, encoding="utf-8") as f:
+            expansions = json.load(f)
 
-    total_queries = len(benchmarks)
-    hits = 0
-    reciprocal_ranks = []
-    precision_scores = []
-    recall_scores = []
+    searchers = get_retrievers(k=K)
+    results = {
+        "Dense only (raw query)": evaluate(searchers["dense"], questions),
+        "BM25 only (raw query)": evaluate(searchers["bm25"], questions),
+        "Hybrid, rank interleaving (raw query)": evaluate(searchers["hybrid"], questions),
+        "Hybrid, reciprocal rank fusion (raw query)": evaluate(searchers["hybrid_rrf"], questions),
+    }
+    raw_names = list(results)
+    if expansions:
+        results["Hybrid + hand-written expansion (UPPER BOUND, not a real system)"] = evaluate(
+            searchers["hybrid"], questions, expansions)
 
-    print("\n" + "="*80)
-    print(f"{'Query ID':<8} | {'Status':<6} | {'Rank':<5} | {'Expanded Keywords'}")
-    print("="*80)
+    print(f"\nRetrieval benchmark: {len(questions)} questions, top {K} clauses\n")
+    print(f"{'Configuration':<66} {'Hit@' + str(K):>14} {'MRR':>7} {'Recall@' + str(K):>10}")
+    for name, r in results.items():
+        print(f"{name:<66} {r['hit']:>3}/{r['n']} = {100 * r['hit'] / r['n']:>3.0f}% "
+              f"{r['mrr']:>7.3f} {100 * r['recall']:>9.0f}%")
 
-    for i, item in enumerate(benchmarks):
-        query = item['q']
-        gold_ids = set(item['gold'])
+    best = max(raw_names, key=lambda n: (results[n]["hit"], results[n]["mrr"]))
+    print(f"\nQuestions missed by the best raw-query configuration ({best}), no gold clause in the top {K}:")
+    missed = [row for row in results[best]["rows"] if row["hit_rank"] is None]
+    if not missed:
+        print("  none")
+    for row in missed:
+        print(f"  - {row['q'][:70]}\n      gold {row['gold']} | retrieved {row['retrieved']}")
 
-        expansion = expansions.get(query, "")
-        expanded_query = f"{query} {expansion}"
+    out = os.path.join(here, "retrieval_results.json")
+    with open(out, "w", encoding="utf-8") as f:
+        json.dump(results, f, indent=2)
+    print("\nSaved per-question details to retrieval_results.json")
+    print("Report Hit@4 and MRR. Precision@4 is capped by the 1-3 gold clauses per question, so it is not shown.")
 
-        # Hybrid Search with Expanded Query
-        sparse_hits = bm25_retriever.invoke(expanded_query)
-        dense_hits = chroma_retriever.invoke(expanded_query)
-
-        # Merge results (Interleave)
-        merged_docs = []
-        seen_ids = set()
-        for pair in zip(sparse_hits, dense_hits):
-            for doc in pair:
-                doc_id = doc.metadata.get('id', '').split('#')[0]
-                if doc_id and doc_id not in seen_ids:
-                    seen_ids.add(doc_id)
-                    merged_docs.append(doc)
-        
-        retrieved_docs = merged_docs[:k]
-        retrieved_ids = [doc.metadata.get('id', '').split('#')[0] for doc in retrieved_docs]
-
-        hit_rank = None
-        for rank, r_id in enumerate(retrieved_ids, 1):
-            if r_id in gold_ids:
-                hit_rank = rank
-                break
-
-        if hit_rank is not None:
-            hits += 1
-            reciprocal_ranks.append(1.0 / hit_rank)
-            status = "HIT"
-        else:
-            reciprocal_ranks.append(0.0)
-            status = "MISS"
-
-        relevant_retrieved = len(set(retrieved_ids).intersection(gold_ids))
-        p_at_k = relevant_retrieved / k
-        r_at_k = relevant_retrieved / len(gold_ids) if len(gold_ids) > 0 else 0
-
-        precision_scores.append(p_at_k)
-        recall_scores.append(r_at_k)
-
-        exp_preview = (expansion[:45] + '..') if len(expansion) > 45 else expansion
-        print(f"Q{i+1:<7} | {status:<6} | {str(hit_rank):<5} | {exp_preview}")
-
-    hit_rate = (hits / total_queries) * 100
-    mrr = sum(reciprocal_ranks) / total_queries
-    avg_precision = (sum(precision_scores) / total_queries) * 100
-    avg_recall = (sum(recall_scores) / total_queries) * 100
-
-    print("\n" + "="*50)
-    print("🎯 OFFICIAL FIELD 6: ADVANCED RAG PERFORMANCE METRICS")
-    print("="*50)
-    print(f"Total Benchmark Queries: {total_queries}")
-    print(f"Hit Rate @ K={k}:         {hit_rate:.2f}%")
-    print(f"Mean Reciprocal Rank:    {mrr:.4f}")
-    print(f"Average Precision @ K:   {avg_precision:.2f}%")
-    print(f"Average Recall @ K:      {avg_recall:.2f}%")
-    print("="*50)
 
 if __name__ == "__main__":
-    evaluate_retrieval(k=4)
+    main()

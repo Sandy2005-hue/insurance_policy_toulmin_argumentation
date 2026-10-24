@@ -6,8 +6,13 @@ from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_community.retrievers import BM25Retriever
 
 
-def _build(k):
-    """Build the dense, BM25 and hybrid search functions (all return up to k unique clauses)."""
+def _build(k, pool=10, rrf_const=60):
+    """Build the dense, BM25, hybrid (interleave) and hybrid RRF search functions.
+
+    Every search function returns up to k unique clauses. Each underlying retriever fetches a larger
+    candidate pool so that fusion can choose among more than k results.
+    """
+    pool = max(pool, k)
     current_dir = os.path.dirname(os.path.abspath(__file__))
     db_path = os.path.join(current_dir, "chroma_db")
     chunks_file = os.path.join(current_dir, "data", "policy_chunks.json")
@@ -15,7 +20,7 @@ def _build(k):
     # 1. Dense retriever
     embeddings = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
     vector_store = Chroma(persist_directory=db_path, embedding_function=embeddings)
-    chroma_retriever = vector_store.as_retriever(search_kwargs={"k": k})
+    chroma_retriever = vector_store.as_retriever(search_kwargs={"k": pool})
 
     # 2. Sparse retriever
     with open(chunks_file, "r", encoding="utf-8") as f:
@@ -29,7 +34,7 @@ def _build(k):
         for c in data["chunks"]
     ]
     bm25_retriever = BM25Retriever.from_documents(bm25_docs)
-    bm25_retriever.k = k
+    bm25_retriever.k = pool
 
     def _unique(docs):
         out, seen = [], set()
@@ -61,15 +66,32 @@ def _build(k):
                     merged_docs.append(doc)
         return merged_docs[:k]
 
-    return dense_search, bm25_search, hybrid_search
+    def hybrid_rrf_search(query):
+        # Reciprocal Rank Fusion: score = sum over retrievers of 1 / (rrf_const + rank)
+        scores, docs = {}, {}
+        for hits in (bm25_retriever.invoke(query), chroma_retriever.invoke(query)):
+            seen_in_list = set()
+            rank = 0
+            for doc in hits:
+                doc_id = doc.metadata.get("id", "").split("#")[0]
+                if not doc_id or doc_id in seen_in_list:
+                    continue
+                seen_in_list.add(doc_id)
+                rank += 1
+                scores[doc_id] = scores.get(doc_id, 0.0) + 1.0 / (rrf_const + rank)
+                docs.setdefault(doc_id, doc)
+        best = sorted(scores, key=scores.get, reverse=True)[:k]
+        return [docs[i] for i in best]
+
+    return dense_search, bm25_search, hybrid_search, hybrid_rrf_search
 
 
 def get_hybrid_retriever(k=4):
-    """Used by the agent: returns the hybrid search function."""
+    """Used by the agent: returns the hybrid (interleave) search function."""
     return _build(k)[2]
 
 
 def get_retrievers(k=4):
     """Used by the benchmark: all three search functions built from the same indexes."""
-    dense, bm25, hybrid = _build(k)
-    return {"dense": dense, "bm25": bm25, "hybrid": hybrid}
+    dense, bm25, hybrid, hybrid_rrf = _build(k)
+    return {"dense": dense, "bm25": bm25, "hybrid": hybrid, "hybrid_rrf": hybrid_rrf}

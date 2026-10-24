@@ -5,6 +5,7 @@ Usage:
     python benchmark_e2e.py --no-fallback --no-rewriter   # without LLM query expansion
     python benchmark_e2e.py --no-fallback --resume        # continue after rate-limit failures
     python benchmark_e2e.py --out e2e_norewriter.json     # choose the results file name
+    python benchmark_e2e.py --claims data/claims_holdout.json --out e2e_holdout.json   # another claims file
 
 Results are saved after every claim, so a crash or rate limit never loses work.
 API errors are never counted as wrong answers; unscored claims are listed at the end.
@@ -67,7 +68,8 @@ def main():
     here = os.path.dirname(os.path.abspath(__file__))
     out_name = ARGV[ARGV.index("--out") + 1] if "--out" in ARGV else "e2e_results.json"
     out_path = os.path.join(here, out_name)
-    with open(os.path.join(here, "data", "claims_gold.json"), encoding="utf-8") as f:
+    claims_name = ARGV[ARGV.index("--claims") + 1] if "--claims" in ARGV else os.path.join("data", "claims_gold.json")
+    with open(os.path.join(here, claims_name), encoding="utf-8") as f:
         claims = json.load(f)
 
     flags = sorted(a for a in ARGV if a in COMPARABLE_FLAGS)
@@ -86,7 +88,7 @@ def main():
             json.dump({"flags": flags, "rows": rows}, f, indent=2)
 
     done = {r["id"] for r in rows}
-    print(f"Claims: {len(claims)} | flags: {flags or 'none'} | results file: {out_name}\n")
+    print(f"Claims: {len(claims)} from {claims_name} | flags: {flags or 'none'} | results file: {out_name}\n")
     print(f"{'ID':<8} | {'Expected':<20} | {'Predicted':<20} | Cite | Gold? | Model")
 
     consecutive_fail = 0

@@ -1,0 +1,104 @@
+[
+ {
+  "id": "HO-01",
+  "category": "waiting_period",
+  "text": "I had hernia surgery 10 months after buying my Gold plan.",
+  "expected_verdict": "Claim Denied",
+  "gold_clause_ids": [
+   "G.2"
+  ],
+  "rationale": "Hernia of all types is in the 24-month specific waiting period; 10 months is not enough.",
+  "verified": false
+ },
+ {
+  "id": "HO-02",
+  "category": "waiting_period",
+  "text": "I was admitted for 3 days for hernia surgery 26 months after buying my Gold plan. I had no earlier hernia.",
+  "expected_verdict": "Claim Approved",
+  "gold_clause_ids": [
+   "C.1",
+   "G.2"
+  ],
+  "rationale": "The 24-month waiting period has passed and inpatient treatment is covered.",
+  "verified": false
+ },
+ {
+  "id": "HO-03",
+  "category": "exclusion",
+  "text": "I was admitted for treatment of alcohol addiction.",
+  "expected_verdict": "Claim Denied",
+  "gold_clause_ids": [
+   "F.i.9"
+  ],
+  "rationale": "Treatment for alcoholism, drug or substance abuse is excluded (Excl12).",
+  "verified": false
+ },
+ {
+  "id": "HO-04",
+  "category": "exclusion",
+  "text": "I want reimbursement for my sterilisation procedure.",
+  "expected_verdict": "Claim Denied",
+  "gold_clause_ids": [
+   "F.i.14"
+  ],
+  "rationale": "Contraception and sterilisation are excluded (Excl17).",
+  "verified": false
+ },
+ {
+  "id": "HO-05",
+  "category": "exclusion",
+  "text": "I wanted laser eye surgery so that I no longer need glasses. My refractive error is 3 dioptres.",
+  "expected_verdict": "Claim Denied",
+  "gold_clause_ids": [
+   "F.i.12"
+  ],
+  "rationale": "Correction of refractive error below 7.5 dioptres is excluded (Excl15).",
+  "verified": false
+ },
+ {
+  "id": "HO-06",
+  "category": "benefit_limit",
+  "text": "I was admitted for two days with a burn from a cooking accident, 5 months after buying my Silver plan.",
+  "expected_verdict": "Claim Approved",
+  "gold_clause_ids": [
+   "C.1"
+  ],
+  "rationale": "Inpatient treatment of an injury is covered and the first-30-days exclusion has passed.",
+  "verified": false
+ },
+ {
+  "id": "HO-07",
+  "category": "plan_eligibility",
+  "text": "I am on the Gold plan. I was shifted in a registered ambulance during an emergency to a hospital where I was then admitted. Please pay the ambulance bill.",
+  "expected_verdict": "Claim Approved",
+  "gold_clause_ids": [
+   "C.8",
+   "C.1"
+  ],
+  "rationale": "Ambulance cover applies to Silver, Gold and Diamond when the hospital claim is admissible. DEBATABLE: the limit is in the Policy Schedule; decide this label deliberately.",
+  "verified": false
+ },
+ {
+  "id": "HO-08",
+  "category": "schedule_dependent",
+  "text": "I stayed in a deluxe room for 4 days. Will the full room rent be paid?",
+  "expected_verdict": "Needs Human Review",
+  "gold_clause_ids": [
+   "C.1",
+   "D.7"
+  ],
+  "rationale": "The eligible room category depends on the sum insured and the Policy Schedule, which is not available.",
+  "verified": false
+ },
+ {
+  "id": "HO-09",
+  "category": "missing_info",
+  "text": "I had gall bladder stone removal. Please approve my claim.",
+  "expected_verdict": "Needs Human Review",
+  "gold_clause_ids": [
+   "G.2"
+  ],
+  "rationale": "Gall bladder stones are in the 24-month waiting list, but how long the policy has been in force is not stated.",
+  "verified": false
+ }
+]

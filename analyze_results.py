@@ -1,6 +1,6 @@
 """Summarise an end-to-end results file for the report.
 
-Usage:  python analyze_results.py e2e_fallback_run.json
+Usage:  python analyze_results.py e2e_fallback_run.json [claims_file.json]
 Shows accuracy by category and by model, how often ALL gold clauses were retrieved
 (strict) versus at least one (loose), and which clauses were most often missing.
 """
@@ -19,7 +19,8 @@ def main():
     name = sys.argv[1] if len(sys.argv) > 1 else "e2e_results.json"
     with open(os.path.join(here, name), encoding="utf-8") as f:
         rows = json.load(f)["rows"]
-    with open(os.path.join(here, "data", "claims_gold.json"), encoding="utf-8") as f:
+    claims_name = sys.argv[2] if len(sys.argv) > 2 else os.path.join("data", "claims_gold.json")
+    with open(os.path.join(here, claims_name), encoding="utf-8") as f:
         category = {c["id"]: c["category"] for c in json.load(f)}
 
     for r in rows:
