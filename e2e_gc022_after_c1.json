@@ -1,0 +1,29 @@
+{
+  "flags": [
+    "--no-fallback",
+    "--no-rewriter"
+  ],
+  "rows": [
+    {
+      "id": "GC-022",
+      "expected": "Claim Approved",
+      "predicted": "Needs Human Review",
+      "citation_check": "Unverified (decision changed to human review)",
+      "gold_clause_retrieved": true,
+      "model": "gemini-3.8-flash",
+      "rewriter_model": null,
+      "retrieved_ids": [
+        "C.7",
+        "G.1",
+        "B.37",
+        "E.2",
+        "C.1",
+        "G.2#1",
+        "G.3"
+      ],
+      "gold_clause_ids": [
+        "C.1"
+      ]
+    }
+  ]
+}

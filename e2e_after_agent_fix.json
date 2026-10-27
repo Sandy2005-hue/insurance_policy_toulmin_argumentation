@@ -1,0 +1,29 @@
+{
+  "flags": [
+    "--no-fallback",
+    "--no-rewriter"
+  ],
+  "rows": [
+    {
+      "id": "GC-001",
+      "expected": "Claim Denied",
+      "predicted": "Claim Denied",
+      "citation_check": "Verified",
+      "gold_clause_retrieved": true,
+      "model": "gemini-3.8-flash",
+      "rewriter_model": null,
+      "retrieved_ids": [
+        "G.1",
+        "C.7",
+        "E.2",
+        "D.1",
+        "G.2#1",
+        "G.3",
+        "B.60"
+      ],
+      "gold_clause_ids": [
+        "G.2"
+      ]
+    }
+  ]
+}

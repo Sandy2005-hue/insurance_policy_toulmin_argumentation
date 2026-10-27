@@ -1,0 +1,27 @@
+{
+  "flags": [],
+  "rows": [
+    {
+      "id": "GC-004-DISCLOSED-TEST",
+      "expected": "Claim Approved",
+      "predicted": "Claim Approved",
+      "citation_check": "Verified",
+      "gold_clause_retrieved": true,
+      "model": "gemini-3.6-flash",
+      "rewriter_model": null,
+      "retrieved_ids": [
+        "D.1",
+        "G.1",
+        "H.1.12",
+        "D.3",
+        "C.1",
+        "G.2#1"
+      ],
+      "gold_clause_ids": [
+        "D.1",
+        "G.1",
+        "C.1"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+[
+  {
+    "id": "GC-022",
+    "category": "benefit_limit",
+    "text": "I had fracture surgery and was admitted for 3 days, 8 months after buying my Gold plan. I had no earlier medical conditions.",
+    "expected_verdict": "Claim Approved",
+    "gold_clause_ids": [
+      "C.1"
+    ],
+    "rationale": "Inpatient treatment is covered, and no waiting period applies to this event after the first 30 days.",
+    "verified": false
+  }
+]

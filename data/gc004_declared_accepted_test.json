@@ -1,0 +1,11 @@
+[
+  {
+    "id": "GC-004-DISCLOSED-TEST",
+    "category": "waiting_period",
+    "text": "I have had diabetes, diagnosed 18 months before I bought my Silver plan. I disclosed my diabetes when applying, and the insurer accepted it in writing. I purchased and paid for the Pre-Existing Disease Waiting Period Waiver add-on, which is listed on my Policy Schedule. I was admitted for a diabetic foot infection 14 months after buying the policy. Is this covered?",
+    "expected_verdict": "Claim Approved",
+    "gold_clause_ids": ["D.1", "G.1", "C.1"],
+    "rationale": "Targeted diagnostic test only: the claim explicitly states the condition was disclosed and accepted, the paid waiver add-on is listed on the schedule, the waiver modifies the PED waiting period to 12 months, and inpatient hospitalization is described. Human review may still be appropriate if other material policy facts are missing.",
+    "verified": false
+  }
+]
